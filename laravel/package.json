@@ -1,0 +1,26 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "axios": "^1.1.2",
+        "laravel-vite-plugin": "^0.7.5",
+        "vite": "^4.3.9"
+    },
+    "dependencies": {
+        "@fancyapps/fancybox": "^3.5.7",
+        "@fortawesome/fontawesome-free": "^6.4.0",
+        "aos": "^2.3.4",
+        "bootstrap": "^5.2.3",
+        "feather": "^0.0.6",
+        "ion-rangeslider": "^2.3.1",
+        "moment": "^2.29.4",
+        "owl-carousel": "^1.0.0",
+        "select2": "^4.0.11",
+        "slick": "^1.12.2",
+        "theia-sticky-sidebar": "^1.7.0"
+    }
+}
