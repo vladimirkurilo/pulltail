@@ -106,13 +106,13 @@
                                 <div class="footer-address">
                                     <span><i class="feather-phone-call"></i></span>
                                     <div class="addr-info">
-                                        <a href="tel:+1(888)7601940">+ 1 (888) 760 1940</a>
+                                        <a href="tel:+1(888)7601940">(513) 800-2711</a>
                                     </div>
                                 </div>
                                 <div class="footer-address">
                                     <span><i class="feather-mail"></i></span>
                                     <div class="addr-info">
-                                        <a href="mailto:support@example.com">support@example.com</a>
+                                        <a href="mailto:rental@pulltail.com">rental@pulltail.com</a>
                                     </div>
                                 </div>
                                 <div class="update-form">
