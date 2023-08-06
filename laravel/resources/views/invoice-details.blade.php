@@ -23,7 +23,7 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="invoice-logo">
-                                        <img src="{{ URL::asset('/assets/img/logo.svg') }}" alt="logo">
+                                        <img src="{{ URL::asset('/assets/img/logo.png') }}" alt="logo">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -93,7 +93,7 @@
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                    <td>Dreams Rental Cars</td>
+                                                    <td>PullTail vans</td>
                                                     <td>Kia Soul</td>
                                                     <td>$1,110</td>
                                                     <td>2</td>
@@ -101,7 +101,7 @@
                                                     <td>$2,220</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>Dreams Rental Cars</td>
+                                                    <td>PullTail vans</td>
                                                     <td>Toyota Tacoma</td>
                                                     <td>$1,110</td>
                                                     <td>0</td>
@@ -109,7 +109,7 @@
                                                     <td>$2,220</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>Dreams Rental Cars</td>
+                                                    <td>PullTail vans</td>
                                                     <td>Audi A3</td>
                                                     <td>$1,110</td>
                                                     <td>0</td>

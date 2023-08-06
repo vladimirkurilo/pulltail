@@ -12,7 +12,7 @@
                          </span>
                      </a>
                      <a href="{{ url('/') }}" class="navbar-brand logo">
-                         <img src="{{ URL::asset('/assets/img/logo.svg') }}" class="img-fluid" alt="Logo">
+                         <img src="{{ URL::asset('/assets/img/logo.png') }}" class="img-fluid" alt="Logo">
                      </a>
                      <a href="{{ url('/') }}" class="navbar-brand logo-small">
                          <img src="{{ URL::asset('/assets/img/logo-small.png') }}" class="img-fluid" alt="Logo">
@@ -21,7 +21,7 @@
                  <div class="main-menu-wrapper">
                      <div class="menu-header">
                          <a href="{{ url('/') }}" class="menu-logo">
-                             <img src="{{ URL::asset('/assets/img/logo.svg') }}" class="img-fluid" alt="Logo">
+                             <img src="{{ URL::asset('/assets/img/logo.png') }}" class="img-fluid" alt="Logo">
                          </a>
                          <a id="menu_close" class="menu-close" href="javascript:void(0);"> <i
                                  class="fas fa-times"></i></a>
@@ -142,7 +142,7 @@
  @if (Route::is(['forgot-password', 'login', 'register', 'reset-password']))
      <!-- Header -->
      <header class="log-header">
-         <a href="{{ url('/') }}"><img class="img-fluid logo-dark" src="assets/img/logo.svg"
+         <a href="{{ url('/') }}"><img class="img-fluid logo-dark" src="assets/img/logo.png"
                  alt="Logo"></a>
      </header>
      <!-- /Header -->

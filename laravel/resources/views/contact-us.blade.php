@@ -22,7 +22,7 @@
                         <div class="single-contact-info flex-fill">
                             <span><i class="feather-phone-call"></i></span>
                             <h3>Phone Number</h3>
-                            <a href="tel:(888)888-8888">(888) 888-8888</a>
+                            <a href="tel:(888)888-8888">(513) 800-2711</a>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-12 d-flex" data-aos="fade-down" data-aos-duration="1200"
@@ -30,7 +30,7 @@
                         <div class="single-contact-info flex-fill">
                             <span><i class="feather-mail"></i></span>
                             <h3>Email Address</h3>
-                            <a href="mailto:johnsmith@example.com">johnsmith@example.com</a>
+                            <a href="mailto:rental@pulltail.com">rental@pulltail.com</a>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 col-12 d-flex" data-aos="fade-down" data-aos-duration="1200"
