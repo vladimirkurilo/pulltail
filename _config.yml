@@ -4,3 +4,21 @@ defaults:
       type: "directory"
       values:
         index: "html/index.html"
+
+# Название сайта
+title: Название сайта
+
+# Описание сайта
+description: trailers rental
+
+# Язык сайта
+lang: en
+
+# Ссылка на репозиторий GitHub
+github_username: vladimirkurilo
+github_repo: pulltail
+
+# Настройки для хостинга GitHub Pages
+baseurl: https://vladimirkurilo.github.io/pulltail/html/index.html  # Название репозитория на GitHub
+url: https://vladimirkurilo.github.io/pulltail/html/index.html  # Адрес сайта на GitHub Pages
+permalink: /:title.html  # Формат ссылок на страницы
