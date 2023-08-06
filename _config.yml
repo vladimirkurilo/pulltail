@@ -1,0 +1,6 @@
+defaults:
+  - scope:
+      path: ""
+      type: "directory"
+      values:
+        index: "html/index.html"
