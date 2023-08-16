@@ -54,7 +54,7 @@
             <div class="form-info-area" data-aos="fade-down" data-aos-duration="1200" data-aos-delay="0.5">
                 <div class="row">
                     <div class="col-lg-6">
-                        <img src="{{ URL::asset('/assets/img/contact-info.jpg') }}" class="img-fluid" alt="Contact">
+                        <img src="{{ URL::asset('assets/img/aboutusimg.jpg') }}" class="img-fluid" alt="Contact">
                     </div>
                     <div class="col-lg-6">
                         <form action="#">

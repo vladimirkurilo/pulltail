@@ -105,7 +105,7 @@
                     <div class="review-header-group">
                         <div class="review-widget-header">
                             <span class="review-widget-img">
-                                <img src="{{ URL::asset('/assets/img/profiles/avatar-01.jpg') }}" class="img-fluid"
+                                <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}" class="img-fluid"
                                     alt="">
                             </span>
                             <div class="review-design">
@@ -132,7 +132,7 @@
                     <div class="review-header-group">
                         <div class="review-widget-header">
                             <span class="review-widget-img">
-                                <img src="{{ URL::asset('/assets/img/profiles/avatar-02.jpg') }}" class="img-fluid"
+                                <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}" class="img-fluid"
                                     alt="">
                             </span>
                             <div class="review-design">

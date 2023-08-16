@@ -2,6 +2,12 @@
     22. About Us
 -----------------------*/
 
+.text-ultra{
+	color: #FFA633;
+	font-size: 17px;
+    font-weight: 500;
+}
+
 .about-img {
 	position: $__relative;
 	@include margin-padding(0 0 24px 0, null);

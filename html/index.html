@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
-	<title>Dreams Rent | Template</title>
+	<title>Pulltail | Template</title>
 
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="assets/img/favicon.png">
@@ -32,6 +32,30 @@
 
 	<!-- Main CSS -->
 	<link rel="stylesheet" href="assets/css/style.css">
+	<style type="text/css">
+		.zxc{
+			display: flex;flex-direction: revert;justify-content: center; width: 100%;
+		}
+		.search-box-banner form ul span{
+			display: flex;flex-direction: revert;justify-content: center; margin-top: 15px;
+		}
+		.search-box-banner form ul{
+			display: flex; justify-content: center;
+		}
+		
+		@media (max-width: 565px){
+		.zxc{
+		  flex-direction: column;
+		}
+		.search-box-banner form ul span{
+			flex-direction: column;
+		}
+		.search-box-banner form ul{
+			display: flex; justify-content: left;
+		}
+	  }
+	</style>
+	
 	
 </head>
 <body>
@@ -54,7 +78,7 @@
 							<img src="assets/img/logo.jpg" class="img-fluid" style="max-width: 220px;" alt="Logo">
 						</a>
 						<a href="index.html" class="navbar-brand logo-small">
-							<img src="assets/img/logo-small.png" class="img-fluid" alt="Logo">
+							<img src="assets/img/logo.png" class="img-fluid" alt="Logo" style="width: 200px;">
 						</a>					
 					</div>
 					<div class="main-menu-wrapper">
@@ -113,14 +137,14 @@
 									<li><a href="coming-soon.html">Coming Soon</a></li>
 								</ul>
 							</li>
-							<li class="has-submenu">
+							<!-- <li class="has-submenu">
 								<a href="">Blog <i class="fas fa-chevron-down"></i></a>
 								<ul class="submenu">
 								    <li><a href="blog-list.html">Blog List</a></li>
 									<li><a href="blog-grid.html">Blog Grid</a></li>
 									<li><a href="blog-details.html">Blog Details</a></li>																		
 								</ul>
-							</li>
+							</li> -->
 							<li><a href="contact-us.html">Contact</a></li>
 							<li class="login-link">
 								<a href="register.html">Sign Up</a>
@@ -172,64 +196,103 @@
 		<div class="section-search"> 
 			<div class="container">	  
 				<div class="search-box-banner">
-					<form action="listing-grid.html">
-						<ul class="align-items-center">
-							<li class="column-group-main">
-								<div class="form-group">
-									<label>Pickup Location</label>												
-									<div class="group-img">
-										<input type="text" class="form-control" placeholder="Enter City, Airport, or Address">
-										<span><i class="feather-map-pin"></i></span>
-									</div>
-								</div>
-							</li>
-							<li class="column-group-main">						
-								<div class="form-group">																	
-									<label>Pickup Date</label>
-								</div>
-								<div class="form-group-wrapp">
-									<div class="form-group date-widget">												
+					<form action="listing-grid.html" style="border: 2px solid #FFA633; border-radius: 14px;padding: 17px;">
+						<ul class="align-items-center" style="">
+							<span style="" class="zxc">
+								<li class="column-group-main column-group-main-top" id="hmt" style="width: 750px; ">
+									<div class="form-group">
+										<label>Pickup Location</label>												
 										<div class="group-img">
-										<input type="text" class="form-control datetimepicker" placeholder="04/11/2023">
-										<span><i class="feather-calendar"></i></span>
+											<input type="text" class="form-control" placeholder="Enter City, Airport, or Address">
+											<span><i class="feather-map-pin"></i></span>
 										</div>
 									</div>
-									<div class="form-group time-widge">											
-										<div class="group-img">
-										<input type="text" class="form-control timepicker" placeholder="11:00 AM">
-										<span><i class="feather-clock"></i></span>
+								</li>
+								<li class="rental-type-block" style="margin: 10px 0;margin: 0;padding: 0 10px;">
+									<div class="rental-type-block__title" style="margin: 0 0 10px;font-weight: 700;font-size: 15px;color: #2F2F2F;">Rental type</div>
+									<select name="user_profile_color_1" class="rental-type-block__select" style="background: #FCFBFB;border: 1px solid #F4F4F4;box-shadow: none;border-radius: 5px;margin: 0;padding: 13px;font-size: 14px;font-weight: 400;color: #201F1D;">
+										<option value="1">Daily</option>
+										<option value="2">Monthly</option>
+										<option value="3">Standard 1-year contract</option>
+									  </select>
+								</li>
+							</span>
+							<span style="">
+								<li class="column-group-main">						
+									<div class="form-group">																	
+										<label>Pickup Date</label>
+									</div>
+									<div class="form-group-wrapp">
+										<div class="form-group date-widget">												
+											<div class="group-img">
+											<input type="text" class="form-control datetimepicker" id="pickup-date" placeholder="04/11/2023">
+											<span><i class="feather-calendar"></i></span>
+											</div>
+										</div>
+										<div class="form-group time-widge">											
+											<div class="group-img">
+											<input type="text" class="form-control timepicker" placeholder="11:00 AM">
+											<span><i class="feather-clock"></i></span>
+											</div>
+										</div>
+									</div>	
+								</li>
+								<li class="column-group-main">						
+									<div class="form-group">																	
+										<label>Return Date</label>
+									</div>
+									<div class="form-group-wrapp">
+										<div class="form-group date-widge">												
+											<div class="group-img">
+											<input type="text" class="form-control datetimepicker" id="return-date" placeholder="04/11/2023">
+											<span><i class="feather-calendar"></i></span>
+											</div>
+										</div>
+										<div class="form-group time-widge">											
+											<div class="group-img">
+											<input type="text" class="form-control timepicker" placeholder="11:00 AM">
+											<span><i class="feather-clock"></i></span>
+											</div>
+										</div>
+									</div>	
+								</li>
+								
+								<li class="column-group-last">
+									<div class="form-group">
+										<div class="search-btn">
+											<button class="btn search-button" type="submit"> <i class="fa fa-search" aria-hidden="true"></i>Search</button>
 										</div>
 									</div>
-								</div>	
-							</li>
-							<li class="column-group-main">						
-								<div class="form-group">																	
-									<label>Return Date</label>
-								</div>
-								<div class="form-group-wrapp">
-									<div class="form-group date-widge">												
-										<div class="group-img">
-										<input type="text" class="form-control datetimepicker" placeholder="04/11/2023">
-										<span><i class="feather-calendar"></i></span>
-										</div>
-									</div>
-									<div class="form-group time-widge">											
-										<div class="group-img">
-										<input type="text" class="form-control timepicker" placeholder="11:00 AM">
-										<span><i class="feather-clock"></i></span>
-										</div>
-									</div>
-								</div>	
-							</li>
-							<li class="column-group-last">
-								<div class="form-group">
-									<div class="search-btn">
-										<button class="btn search-button" type="submit"> <i class="fa fa-search" aria-hidden="true"></i>Search</button>
-									</div>
-								</div>
-							</li>
+								</li>
+							</span>
 						</ul>
+						
 					</form>	
+<script>
+	function updateReturnDate() {
+						var rentalType = document.getElementById("rental-type").value;
+						var pickupDate = document.getElementById("pickup-date").value;
+					  
+						if (rentalType == "1") {
+						  // Daily rental
+						  var returnDate = new Date(pickupDate);
+						  returnDate.setDate(returnDate.getDate() + 1);
+						} else if (rentalType == "2") {
+						  // Monthly rental
+						  var returnDate = new Date(pickupDate);
+						  returnDate.setMonth(returnDate.getMonth() + 1);
+						} else if (rentalType == "3") {
+						  // Yearly rental
+						  var returnDate = new Date(pickupDate);
+						  returnDate.setFullYear(returnDate.getFullYear() + 1);
+						}
+					  
+						document.getElementById("return-date").placeholder = returnDate.toISOString();
+					  }
+</script>
+					
+
+
 				</div>
 			</div>	
 		</div>	
@@ -302,22 +365,22 @@
 						<div class="listing-tabs-group">
 							<ul class="nav listing-buttons gap-3" data-bs-tabs="tabs">
 								<li>
-									<a class="active" aria-current="true" data-bs-toggle="tab" href="#Carmazda">
+									<a class="active" aria-current="true" data-bs-toggle="tab" href="#Wabash">
 										<span>
-											<img src="assets/img/icons/car-icon-01.svg" alt="Mazda">
+											<img src="assets/img/icons/wabash-logo.png" alt="Wabash" style="width: 35px;">
 										</span>
-										Mazda
+										Wabash
 									</a>
 								</li>
 								<li>
 									<a data-bs-toggle="tab" href="#Caraudi">
 										<span>
-											<img src="assets/img/icons/car-icon-02.svg" alt="Audi">
+											<img src="assets/img/icons/utility-logo.png" alt="Utility" style="width: 50px;">
 										</span>
-										Audi
+										Utility
 									</a>
 								</li>
-								<li>
+								<!-- <li>
 									<a data-bs-toggle="tab" href="#Carhonda">
 										<span>
 											<img src="assets/img/icons/car-icon-03.svg" alt="Honda">
@@ -348,7 +411,7 @@
 										</span>
 										Tesla 
 									</a>
-								</li>
+								</li> -->
 							</ul>
 						</div>
 					</div>
@@ -374,7 +437,7 @@
 									<div class="listing-content">
 										<div class="listing-features">
 											<a href="javascript:void(0)" class="author-img">
-												<img src="assets/img/profiles/avatar-0.jpg" alt="author">
+												<img src="assets/img/profiles/profile.png" alt="author">
 											</a>
 											<h3 class="listing-title">
 												<a href="listing-details.html">Toyota Camry SE 350</a>
@@ -451,7 +514,7 @@
 									<div class="listing-content">
 										<div class="listing-features">
 											<a href="javascript:void(0)" class="author-img">
-												<img src="assets/img/profiles/avatar-02.jpg" alt="author">
+												<img src="assets/img/profiles/profile.png" alt="author">
 											</a>
 											<h3 class="listing-title">
 												<a href="listing-details.html">Kia Soul 2016</a>
@@ -528,7 +591,7 @@
 									<div class="listing-content">
 										<div class="listing-features">
 											<a href="javascript:void(0)" class="author-img">
-												<img src="assets/img/profiles/avatar-03.jpg" alt="author">
+												<img src="assets/img/profiles/profile.png" alt="author">
 											</a>
 											<h3 class="listing-title">
 												<a href="listing-details.html">Audi A3 2019 new</a>
@@ -605,7 +668,7 @@
 									<div class="listing-content">
 										<div class="listing-features">
 											<a href="javascript:void(0)" class="author-img">
-												<img src="assets/img/profiles/avatar-04.jpg" alt="author">
+												<img src="assets/img/profiles/profile.png" alt="author">
 											</a>
 											<h3 class="listing-title">
 												<a href="listing-details.html">Ferrari 458 MM Speciale</a>
@@ -682,7 +745,7 @@
 									<div class="listing-content">
 										<div class="listing-features">
 											<a href="javascript:void(0)" class="author-img">
-												<img src="assets/img/profiles/avatar-05.jpg" alt="author">
+												<img src="assets/img/profiles/profile.png" alt="author">
 											</a>
 											<h3 class="listing-title">
 												<a href="listing-details.html">2018 Chevrolet Camaro</a>
@@ -759,7 +822,7 @@
 									<div class="listing-content">
 										<div class="listing-features">
 											<a href="javascript:void(0)" class="author-img">
-												<img src="assets/img/profiles/avatar-06.jpg" alt="author">
+												<img src="assets/img/profiles/profile.png" alt="author">
 											</a>
 											<h3 class="listing-title">
 												<a href="listing-details.html">Acura Sport Version</a>
@@ -836,7 +899,7 @@
 									<div class="listing-content">
 										<div class="listing-features">
 											<a href="javascript:void(0)" class="author-img">
-												<img src="assets/img/profiles/avatar-07.jpg" alt="author">
+												<img src="assets/img/profiles/profile.png" alt="author">
 											</a>
 											<h3 class="listing-title">
 												<a href="listing-details.html">Chevrolet Pick Truck 3.5L</a>
@@ -913,7 +976,7 @@
 									<div class="listing-content">
 										<div class="listing-features">
 											<a href="javascript:void(0)" class="author-img">
-												<img src="assets/img/profiles/avatar-08.jpg" alt="author">
+												<img src="assets/img/profiles/profile.png" alt="author">
 											</a>
 											<h3 class="listing-title">
 												<a href="listing-details.html">Toyota Tacoma 4WD</a>
@@ -990,7 +1053,7 @@
 									<div class="listing-content">
 										<div class="listing-features">
 											<a href="javascript:void(0)" class="author-img">
-												<img src="assets/img/profiles/avatar-10.jpg" alt="author">
+												<img src="assets/img/profiles/profile.png" alt="author">
 											</a>
 											<h3 class="listing-title">
 												<a href="listing-details.html">Acura RDX FWD</a>
@@ -1070,7 +1133,7 @@
 									<div class="listing-content">
 										<div class="listing-features">
 											<a href="javascript:void(0)" class="author-img">
-												<img src="assets/img/profiles/avatar-03.jpg" alt="author">
+												<img src="assets/img/profiles/profile.png" alt="author">
 											</a>
 											<h3 class="listing-title">
 												<a href="listing-details.html">Audi A3 2019 new</a>
@@ -1146,7 +1209,7 @@
 									<div class="listing-content">
 										<div class="listing-features">
 											<a href="javascript:void(0)" class="author-img">
-												<img src="assets/img/profiles/avatar-04.jpg" alt="author">
+												<img src="assets/img/profiles/profile.png" alt="author">
 											</a>
 											<h3 class="listing-title">
 												<a href="listing-details.html">Ferrari 458 MM Speciale</a>
@@ -1223,7 +1286,7 @@
 									<div class="listing-content">
 										<div class="listing-features">
 											<a href="javascript:void(0)" class="author-img">
-												<img src="assets/img/profiles/avatar-05.jpg" alt="author">
+												<img src="assets/img/profiles/profile.png" alt="author">
 											</a>
 											<h3 class="listing-title">
 												<a href="listing-details.html">2018 Chevrolet Camaro</a>
@@ -1300,7 +1363,7 @@
 									<div class="listing-content">
 										<div class="listing-features">
 											<a href="javascript:void(0)" class="author-img">
-												<img src="assets/img/profiles/avatar-06.jpg" alt="author">
+												<img src="assets/img/profiles/profile.png" alt="author">
 											</a>
 											<h3 class="listing-title">
 												<a href="listing-details.html">Acura Sport Version</a>
@@ -1377,7 +1440,7 @@
 									<div class="listing-content">
 										<div class="listing-features">
 											<a href="javascript:void(0)" class="author-img">
-												<img src="assets/img/profiles/avatar-07.jpg" alt="author">
+												<img src="assets/img/profiles/profile.png" alt="author">
 											</a>
 											<h3 class="listing-title">
 												<a href="listing-details.html">Chevrolet Pick Truck 3.5L</a>
@@ -1454,7 +1517,7 @@
 									<div class="listing-content">
 										<div class="listing-features">
 											<a href="javascript:void(0)" class="author-img">
-												<img src="assets/img/profiles/avatar-08.jpg" alt="author">
+												<img src="assets/img/profiles/profile.png" alt="author">
 											</a>
 											<h3 class="listing-title">
 												<a href="listing-details.html">Toyota Tacoma 4WD</a>
@@ -1531,7 +1594,7 @@
 									<div class="listing-content">
 										<div class="listing-features">
 											<a href="javascript:void(0)" class="author-img">
-												<img src="assets/img/profiles/avatar-0.jpg" alt="author">
+												<img src="assets/img/profiles/profile.png" alt="author">
 											</a>
 											<h3 class="listing-title">
 												<a href="listing-details.html">Toyota Camry SE 350</a>
@@ -1608,7 +1671,7 @@
 									<div class="listing-content">
 										<div class="listing-features">
 											<a href="javascript:void(0)" class="author-img">
-												<img src="assets/img/profiles/avatar-02.jpg" alt="author">
+												<img src="assets/img/profiles/profile.png" alt="author">
 											</a>
 											<h3 class="listing-title">
 												<a href="listing-details.html">Kia Soul 2016</a>
@@ -1685,7 +1748,7 @@
 									<div class="listing-content">
 										<div class="listing-features">
 											<a href="javascript:void(0)" class="author-img">
-												<img src="assets/img/profiles/avatar-10.jpg" alt="author">
+												<img src="assets/img/profiles/profile.png" alt="author">
 											</a>
 											<h3 class="listing-title">
 												<a href="listing-details.html">Acura RDX FWD</a>
@@ -1765,7 +1828,7 @@
 									<div class="listing-content">
 										<div class="listing-features">
 											<a href="javascript:void(0)" class="author-img">
-												<img src="assets/img/profiles/avatar-08.jpg" alt="author">
+												<img src="assets/img/profiles/profile.png" alt="author">
 											</a>
 											<h3 class="listing-title">
 												<a href="listing-details.html">Toyota Tacoma 4WD</a>
@@ -1842,7 +1905,7 @@
 									<div class="listing-content">
 										<div class="listing-features">
 											<a href="javascript:void(0)" class="author-img">
-												<img src="assets/img/profiles/avatar-0.jpg" alt="author">
+												<img src="assets/img/profiles/profile.png" alt="author">
 											</a>
 											<h3 class="listing-title">
 												<a href="listing-details.html">Toyota Camry SE 350</a>
@@ -1919,7 +1982,7 @@
 									<div class="listing-content">
 										<div class="listing-features">
 											<a href="javascript:void(0)" class="author-img">
-												<img src="assets/img/profiles/avatar-02.jpg" alt="author">
+												<img src="assets/img/profiles/profile.png" alt="author">
 											</a>
 											<h3 class="listing-title">
 												<a href="listing-details.html">Kia Soul 2016</a>
@@ -1996,7 +2059,7 @@
 									<div class="listing-content">
 										<div class="listing-features">
 											<a href="javascript:void(0)" class="author-img">
-												<img src="assets/img/profiles/avatar-03.jpg" alt="author">
+												<img src="assets/img/profiles/profile.png" alt="author">
 											</a>
 											<h3 class="listing-title">
 												<a href="listing-details.html">Audi A3 2019 new</a>
@@ -2073,7 +2136,7 @@
 									<div class="listing-content">
 										<div class="listing-features">
 											<a href="javascript:void(0)" class="author-img">
-												<img src="assets/img/profiles/avatar-04.jpg" alt="author">
+												<img src="assets/img/profiles/profile.png" alt="author">
 											</a>
 											<h3 class="listing-title">
 												<a href="listing-details.html">Ferrari 458 MM Speciale</a>
@@ -2150,7 +2213,7 @@
 									<div class="listing-content">
 										<div class="listing-features">
 											<a href="javascript:void(0)" class="author-img">
-												<img src="assets/img/profiles/avatar-05.jpg" alt="author">
+												<img src="assets/img/profiles/profile.png" alt="author">
 											</a>
 											<h3 class="listing-title">
 												<a href="listing-details.html">2018 Chevrolet Camaro</a>
@@ -2227,7 +2290,7 @@
 									<div class="listing-content">
 										<div class="listing-features">
 											<a href="javascript:void(0)" class="author-img">
-												<img src="assets/img/profiles/avatar-06.jpg" alt="author">
+												<img src="assets/img/profiles/profile.png" alt="author">
 											</a>
 											<h3 class="listing-title">
 												<a href="listing-details.html">Acura Sport Version</a>
@@ -2304,7 +2367,7 @@
 									<div class="listing-content">
 										<div class="listing-features">
 											<a href="javascript:void(0)" class="author-img">
-												<img src="assets/img/profiles/avatar-07.jpg" alt="author">
+												<img src="assets/img/profiles/profile.png" alt="author">
 											</a>
 											<h3 class="listing-title">
 												<a href="listing-details.html">Chevrolet Pick Truck 3.5L</a>
@@ -2381,7 +2444,7 @@
 									<div class="listing-content">
 										<div class="listing-features">
 											<a href="javascript:void(0)" class="author-img">
-												<img src="assets/img/profiles/avatar-08.jpg" alt="author">
+												<img src="assets/img/profiles/profile.png" alt="author">
 											</a>
 											<h3 class="listing-title">
 												<a href="listing-details.html">Acura RDX FWD</a>
@@ -2461,7 +2524,7 @@
 									<div class="listing-content">
 										<div class="listing-features">
 											<a href="javascript:void(0)" class="author-img">
-												<img src="assets/img/profiles/avatar-0.jpg" alt="author">
+												<img src="assets/img/profiles/profile.png" alt="author">
 											</a>
 											<h3 class="listing-title">
 												<a href="listing-details.html">Toyota Camry SE 350</a>
@@ -2538,7 +2601,7 @@
 									<div class="listing-content">
 										<div class="listing-features">
 											<a href="javascript:void(0)" class="author-img">
-												<img src="assets/img/profiles/avatar-02.jpg" alt="author">
+												<img src="assets/img/profiles/profile.png" alt="author">
 											</a>
 											<h3 class="listing-title">
 												<a href="listing-details.html">Kia Soul 2016</a>
@@ -2615,7 +2678,7 @@
 									<div class="listing-content">
 										<div class="listing-features">
 											<a href="javascript:void(0)" class="author-img">
-												<img src="assets/img/profiles/avatar-03.jpg" alt="author">
+												<img src="assets/img/profiles/profile.png" alt="author">
 											</a>
 											<h3 class="listing-title">
 												<a href="listing-details.html">Audi A3 2019 new</a>
@@ -2692,7 +2755,7 @@
 									<div class="listing-content">
 										<div class="listing-features">
 											<a href="javascript:void(0)" class="author-img">
-												<img src="assets/img/profiles/avatar-04.jpg" alt="author">
+												<img src="assets/img/profiles/profile.png" alt="author">
 											</a>
 											<h3 class="listing-title">
 												<a href="listing-details.html">Ferrari 458 MM Speciale</a>
@@ -2769,7 +2832,7 @@
 									<div class="listing-content">
 										<div class="listing-features">
 											<a href="javascript:void(0)" class="author-img">
-												<img src="assets/img/profiles/avatar-05.jpg" alt="author">
+												<img src="assets/img/profiles/profile.png" alt="author">
 											</a>
 											<h3 class="listing-title">
 												<a href="listing-details.html">2018 Chevrolet Camaro</a>
@@ -2846,7 +2909,7 @@
 									<div class="listing-content">
 										<div class="listing-features">
 											<a href="javascript:void(0)" class="author-img">
-												<img src="assets/img/profiles/avatar-06.jpg" alt="author">
+												<img src="assets/img/profiles/profile.png" alt="author">
 											</a>
 											<h3 class="listing-title">
 												<a href="listing-details.html">Acura Sport Version</a>
@@ -2923,7 +2986,7 @@
 									<div class="listing-content">
 										<div class="listing-features">
 											<a href="javascript:void(0)" class="author-img">
-												<img src="assets/img/profiles/avatar-07.jpg" alt="author">
+												<img src="assets/img/profiles/profile.png" alt="author">
 											</a>
 											<h3 class="listing-title">
 												<a href="listing-details.html">Chevrolet Pick Truck 3.5L</a>
@@ -3000,7 +3063,7 @@
 									<div class="listing-content">
 										<div class="listing-features">
 											<a href="javascript:void(0)" class="author-img">
-												<img src="assets/img/profiles/avatar-08.jpg" alt="author">
+												<img src="assets/img/profiles/profile.png" alt="author">
 											</a>
 											<h3 class="listing-title">
 												<a href="listing-details.html">Toyota Tacoma 4WD</a>
@@ -3077,7 +3140,7 @@
 									<div class="listing-content">
 										<div class="listing-features">
 											<a href="javascript:void(0)" class="author-img">
-												<img src="assets/img/profiles/avatar-10.jpg" alt="author">
+												<img src="assets/img/profiles/profile.png" alt="author">
 											</a>
 											<h3 class="listing-title">
 												<a href="listing-details.html">Acura RDX FWD</a>
@@ -3157,7 +3220,7 @@
 									<div class="listing-content">
 										<div class="listing-features">
 											<a href="javascript:void(0)" class="author-img">
-												<img src="assets/img/profiles/avatar-0.jpg" alt="author">
+												<img src="assets/img/profiles/profile.png" alt="author">
 											</a>
 											<h3 class="listing-title">
 												<a href="listing-details.html">Toyota Camry SE 350</a>
@@ -3234,7 +3297,7 @@
 									<div class="listing-content">
 										<div class="listing-features">
 											<a href="javascript:void(0)" class="author-img">
-												<img src="assets/img/profiles/avatar-02.jpg" alt="author">
+												<img src="assets/img/profiles/profile.png" alt="author">
 											</a>
 											<h3 class="listing-title">
 												<a href="listing-details.html">Kia Soul 2016</a>
@@ -3311,7 +3374,7 @@
 									<div class="listing-content">
 										<div class="listing-features">
 											<a href="javascript:void(0)" class="author-img">
-												<img src="assets/img/profiles/avatar-03.jpg" alt="author">
+												<img src="assets/img/profiles/profile.png" alt="author">
 											</a>
 											<h3 class="listing-title">
 												<a href="listing-details.html">Audi A3 2019 new</a>
@@ -3388,7 +3451,7 @@
 									<div class="listing-content">
 										<div class="listing-features">
 											<a href="javascript:void(0)" class="author-img">
-												<img src="assets/img/profiles/avatar-04.jpg" alt="author">
+												<img src="assets/img/profiles/profile.png" alt="author">
 											</a>
 											<h3 class="listing-title">
 												<a href="listing-details.html">Ferrari 458 MM Speciale</a>
@@ -3465,7 +3528,7 @@
 									<div class="listing-content">
 										<div class="listing-features">
 											<a href="javascript:void(0)" class="author-img">
-												<img src="assets/img/profiles/avatar-05.jpg" alt="author">
+												<img src="assets/img/profiles/profile.png" alt="author">
 											</a>
 											<h3 class="listing-title">
 												<a href="listing-details.html">2018 Chevrolet Camaro</a>
@@ -3542,7 +3605,7 @@
 									<div class="listing-content">
 										<div class="listing-features">
 											<a href="javascript:void(0)" class="author-img">
-												<img src="assets/img/profiles/avatar-06.jpg" alt="author">
+												<img src="assets/img/profiles/profile.png" alt="author">
 											</a>
 											<h3 class="listing-title">
 												<a href="listing-details.html">Acura Sport Version</a>
@@ -3619,7 +3682,7 @@
 									<div class="listing-content">
 										<div class="listing-features">
 											<a href="javascript:void(0)" class="author-img">
-												<img src="assets/img/profiles/avatar-07.jpg" alt="author">
+												<img src="assets/img/profiles/profile.png" alt="author">
 											</a>
 											<h3 class="listing-title">
 												<a href="listing-details.html">Chevrolet Pick Truck 3.5L</a>
@@ -3696,7 +3759,7 @@
 									<div class="listing-content">
 										<div class="listing-features">
 											<a href="javascript:void(0)" class="author-img">
-												<img src="assets/img/profiles/avatar-08.jpg" alt="author">
+												<img src="assets/img/profiles/profile.png" alt="author">
 											</a>
 											<h3 class="listing-title">
 												<a href="listing-details.html">Toyota Tacoma 4WD</a>
@@ -3773,7 +3836,7 @@
 									<div class="listing-content">
 										<div class="listing-features">
 											<a href="javascript:void(0)" class="author-img">
-												<img src="assets/img/profiles/avatar-10.jpg" alt="author">
+												<img src="assets/img/profiles/profile.png" alt="author">
 											</a>
 											<h3 class="listing-title">
 												<a href="listing-details.html">Acura RDX FWD</a>
@@ -3853,7 +3916,7 @@
 									<div class="listing-content">
 										<div class="listing-features">
 											<a href="javascript:void(0)" class="author-img">
-												<img src="assets/img/profiles/avatar-08.jpg" alt="author">
+												<img src="assets/img/profiles/profile.png" alt="author">
 											</a>
 											<h3 class="listing-title">
 												<a href="listing-details.html">Toyota Tacoma 4WD</a>
@@ -3930,7 +3993,7 @@
 									<div class="listing-content">
 										<div class="listing-features">
 											<a href="javascript:void(0)" class="author-img">
-												<img src="assets/img/profiles/avatar-0.jpg" alt="author">
+												<img src="assets/img/profiles/profile.png" alt="author">
 											</a>
 											<h3 class="listing-title">
 												<a href="listing-details.html">Toyota Camry SE 350</a>
@@ -4007,7 +4070,7 @@
 									<div class="listing-content">
 										<div class="listing-features">
 											<a href="javascript:void(0)" class="author-img">
-												<img src="assets/img/profiles/avatar-02.jpg" alt="author">
+												<img src="assets/img/profiles/profile.png" alt="author">
 											</a>
 											<h3 class="listing-title">
 												<a href="listing-details.html">Kia Soul 2016</a>
@@ -4084,7 +4147,7 @@
 									<div class="listing-content">
 										<div class="listing-features">
 											<a href="javascript:void(0)" class="author-img">
-												<img src="assets/img/profiles/avatar-03.jpg" alt="author">
+												<img src="assets/img/profiles/profile.png" alt="author">
 											</a>
 											<h3 class="listing-title">
 												<a href="listing-details.html">Audi A3 2019 new</a>
@@ -4161,7 +4224,7 @@
 									<div class="listing-content">
 										<div class="listing-features">
 											<a href="javascript:void(0)" class="author-img">
-												<img src="assets/img/profiles/avatar-04.jpg" alt="author">
+												<img src="assets/img/profiles/profile.png" alt="author">
 											</a>
 											<h3 class="listing-title">
 												<a href="listing-details.html">Ferrari 458 MM Speciale</a>
@@ -4238,7 +4301,7 @@
 									<div class="listing-content">
 										<div class="listing-features">
 											<a href="javascript:void(0)" class="author-img">
-												<img src="assets/img/profiles/avatar-05.jpg" alt="author">
+												<img src="assets/img/profiles/profile.png" alt="author">
 											</a>
 											<h3 class="listing-title">
 												<a href="listing-details.html">2018 Chevrolet Camaro</a>
@@ -4315,7 +4378,7 @@
 									<div class="listing-content">
 										<div class="listing-features">
 											<a href="javascript:void(0)" class="author-img">
-												<img src="assets/img/profiles/avatar-06.jpg" alt="author">
+												<img src="assets/img/profiles/profile.png" alt="author">
 											</a>
 											<h3 class="listing-title">
 												<a href="listing-details.html">Acura Sport Version</a>
@@ -4392,7 +4455,7 @@
 									<div class="listing-content">
 										<div class="listing-features">
 											<a href="javascript:void(0)" class="author-img">
-												<img src="assets/img/profiles/avatar-07.jpg" alt="author">
+												<img src="assets/img/profiles/profile.png" alt="author">
 											</a>
 											<h3 class="listing-title">
 												<a href="listing-details.html">Chevrolet Pick Truck 3.5L</a>
@@ -4469,7 +4532,7 @@
 									<div class="listing-content">
 										<div class="listing-features">
 											<a href="javascript:void(0)" class="author-img">
-												<img src="assets/img/profiles/avatar-08.jpg" alt="author">
+												<img src="assets/img/profiles/profile.png" alt="author">
 											</a>
 											<h3 class="listing-title">
 												<a href="listing-details.html">Acura RDX FWD</a>
@@ -4536,86 +4599,7 @@
 		<!-- /Popular Services -->
 
 		<!-- Popular Cartypes -->
-		<section class="section popular-car-type">
-			<div class="container">
-				<!-- Heading title-->
-				<div class="section-heading"  data-aos="fade-down">
-					<h2>Most Popular Cartypes</h2>
-					<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
-				</div>
-				<!-- /Heading title -->
-				<div class="row">
-			        <div class="popular-slider-group">
-			        	<div class="owl-carousel popular-cartype-slider owl-theme">
-							<!-- owl carousel item -->
-						    <div class="listing-owl-item">
-							    <div class="listing-owl-group">
-								    <div class="listing-owl-img">
-								        <img src="assets/img/cars/mp-vehicle-01.png" class="img-fluid" alt="Popular Cartypes">
-									</div>
-									<h6>Crossover</h6>
-									<p>35 Cars</p>								
-								</div>
-							</div>
-							<!-- /owl carousel item -->
-
-							<!-- owl carousel item -->
-						    <div class="listing-owl-item">
-							    <div class="listing-owl-group">
-								    <div class="listing-owl-img">
-								        <img src="assets/img/cars/mp-vehicle-02.png" class="img-fluid" alt="Popular Cartypes">
-									</div>
-									<h6>Sports Coupe</h6>
-									<p>45 Cars</p>								
-								</div>
-							</div>
-							<!-- /owl carousel item -->
-
-							<!-- owl carousel item -->
-						    <div class="listing-owl-item">
-							    <div class="listing-owl-group">
-								    <div class="listing-owl-img">
-								        <img src="assets/img/cars/mp-vehicle-03.png" class="img-fluid" alt="Popular Cartypes">
-									</div>
-									<h6>Sedan</h6>
-									<p>15 Cars</p>								
-								</div>
-							</div>
-							<!-- /owl carousel item -->
-
-							<!-- owl carousel item -->
-						    <div class="listing-owl-item">
-							    <div class="listing-owl-group">
-								    <div class="listing-owl-img">
-								        <img src="assets/img/cars/mp-vehicle-04.png" class="img-fluid" alt="Popular Cartypes">
-									</div>
-									<h6>Pickup</h6>
-									<p>17 Cars</p>								
-								</div>
-							</div>
-							<!-- /owl carousel item -->
-
-							<!-- owl carousel item -->
-						    <div class="listing-owl-item">
-							    <div class="listing-owl-group">
-								    <div class="listing-owl-img">
-								        <img src="assets/img/cars/mp-vehicle-05.png" class="img-fluid" alt="Popular Cartypes">
-									</div>
-									<h6>Family MPV</h6>
-									<p>24 Cars</p>								
-								</div>
-							</div>
-							<!-- /owl carousel item -->
-						</div>	
-					</div>
-				</div>
-				<!-- View More -->
-				<div class="view-all text-center" data-aos="fade-down">
-					<a href="listing-grid.html" class="btn btn-view d-inline-flex align-items-center">View all Cars <span><i class="feather-arrow-right ms-2"></i></span></a>
-				</div>
-				<!-- View More -->
-			</div>
-		</section>
+		<!-- deleted -->
 		<!-- /Popular Cartypes -->
 
 		<!-- Facts By The Numbers -->
@@ -4630,7 +4614,7 @@
 				<!-- Heading title-->
 				<div class="section-heading" data-aos="fade-down">
 					<h2 class="title text-white">Facts By The Numbers</h2>
-					<p class="description text-white">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+					<!-- <p class="description text-white">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p> -->
 				</div>
 				<!-- /Heading title -->
 				<div class="counter-group">
@@ -4642,7 +4626,7 @@
 										<img src="assets/img/icons/bx-heart.svg" alt="">
 									</div>
 									<div class="count-content">
-										<h4><span class="counterUp">16</span>K+</h4>
+										<h4><span class="counterUp">1</span>K+</h4>
 										<p>Happy Customers</p>
 									</div>
 								</div>
@@ -4652,11 +4636,11 @@
 							<div class="count-group flex-fill">
 								<div class="customer-count d-flex align-items-center">
 									<div class="count-img">
-										<img src="assets/img/icons/bx-car.svg" alt="">
+										<img src="assets/img/icons/trailer.png" alt="" style="width: 40px;">
 									</div>
 									<div class="count-content">
-										<h4><span class="counterUp">2547</span>+</h4>
-										<p>Count of Cars</p>
+										<h4><span class="counterUp">250</span>+</h4>
+										<p>Count of trailers</p>
 									</div>
 								</div>
 							</div>
@@ -4665,11 +4649,11 @@
 							<div class="count-group flex-fill">
 								<div class="customer-count d-flex align-items-center">
 									<div class="count-img">
-										<img src="assets/img/icons/bx-headphone.svg" alt="">
+										<img src="assets/img/icons/trophy.png" alt="" style="width: 40px;">
 									</div>
 									<div class="count-content">
-										<h4><span class="counterUp">625</span>K+</h4>
-										<p>Car Center Solutions</p>
+										<h4><span class="counterUp">6</span>+</h4>
+										<p>Years of successful work</p>
 									</div>
 								</div>
 							</div>
@@ -4681,8 +4665,8 @@
 										<img src="assets/img/icons/bx-history.svg" alt="">
 									</div>
 									<div class="count-content">
-										<h4><span class="counterUp">200</span>K+</h4>
-										<p>Total Kilometer</p>
+										<h4><span class="counterUp">150000</span>K+</h4>
+										<p>Total Miles</p>
 									</div>
 								</div>
 							</div>
@@ -4694,7 +4678,7 @@
 		<!-- /Facts By The Numbers -->
 
 		<!-- Rental deals -->
-		<section class="section popular-services">
+		<section class="section popular-services" style="display: none;">
 			<div class="container">
 				<!-- Heading title-->
 				<div class="section-heading"  data-aos="fade-down">
@@ -4917,7 +4901,6 @@
 				<!-- Heading title-->
 				<div class="section-heading" data-aos="fade-down">
 					<h2>Why Choose Us</h2>
-					<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
 				</div>
 				<!-- /Heading title -->
 				<div class="why-choose-group">
@@ -4968,12 +4951,13 @@
 		<!-- /Why Choose Us -->
 
 		<!-- About us Testimonials -->
-		<section class="section about-testimonial testimonials-section">
+		<section class="section about-testimonial testimonials-section" style="background-image: none;
+    background-color: gainsboro;">
 			<div class="container">
 				<!-- Heading title-->
 				<div class="section-heading" data-aos="fade-down">
 					<h2 class="title text-white">What People say about us? </h2>
-					<p class="description text-white">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+					<!-- <p class="description text-white">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p> -->
 				</div>
 				<!-- /Heading title -->
 				<div class="owl-carousel about-testimonials testimonial-group mb-0 owl-theme">
@@ -4986,7 +4970,7 @@
 								<div class="review-box">
 									<div class="review-profile">
 										<div class="review-img">
-											<img src="assets/img/profiles/avatar-02.jpg" class="img-fluid" alt="img">
+											<img src="assets/img/profiles/profile.png" class="img-fluid" alt="img">
 										</div>															
 									</div>
 									<div class="review-details">
@@ -5003,7 +4987,7 @@
 										</div>																	
 									</div>
 								</div>									
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>	
+								<p>I needed a truck rental for a weekend project and Pulltail was the perfect choice. Their rental process was quick and easy, and the truck was exactly what I needed for the job. The staff was friendly and helpful, providing me with all the information I needed to make my rental experience a success. I would definitely rent from Pulltail again.</p>	
 							</div>
 						</div>
 					</div>
@@ -5014,10 +4998,10 @@
 						<div class="card flex-fill">
 							<div class="card-body">								
 								<div class="quotes-head"></div>
-								<div class="review-box">
+																<div class="review-box">
 									<div class="review-profile">
 										<div class="review-img">
-											<img src="assets/img/profiles/avatar-03.jpg" class="img-fluid" alt="img">
+											<img src="assets/img/profiles/profile.png" class="img-fluid" alt="img">
 										</div>															
 									</div>
 									<div class="review-details">
@@ -5034,7 +5018,7 @@
 										</div>																	
 									</div>
 								</div>									
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>	
+								<p>I've used Pulltail for multiple moves over the years and they never disappoint. Their trucks are always clean and well-maintained, and the staff is knowledgeable and helpful. I appreciate their flexible rental options and competitive pricing. If you're in need of a reliable truck rental, Pulltail is the way to go.</p>		
 							</div>
 						</div>
 					</div>
@@ -5048,7 +5032,7 @@
 								<div class="review-box">
 									<div class="review-profile">
 										<div class="review-img">
-											<img src="assets/img/profiles/avatar-04.jpg" class="img-fluid" alt="img">
+											<img src="assets/img/profiles/profile.png" class="img-fluid" alt="img">
 										</div>															
 									</div>
 									<div class="review-details">
@@ -5065,7 +5049,7 @@
 										</div>																	
 									</div>
 								</div>									
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>	
+								<p>I recently rented a truck from Pulltail for a DIY home renovation project and I couldn't be happier with the service. The truck was spacious enough to fit all of my materials and tools, and it was easy to drive even with a heavy load. The staff was friendly and helpful, making the rental process a breeze. I highly recommend Pulltail for anyone in need of a quality truck rental.</p>	
 							</div>
 						</div>
 					</div>
@@ -5079,7 +5063,7 @@
 								<div class="review-box">
 									<div class="review-profile">
 										<div class="review-img">
-											<img src="assets/img/profiles/avatar-06.jpg" class="img-fluid" alt="img">
+											<img src="assets/img/profiles/profile.png" class="img-fluid" alt="img">
 										</div>															
 									</div>
 									<div class="review-details">
@@ -5096,7 +5080,7 @@
 										</div>																	
 									</div>
 								</div>									
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>	
+								<p>I had a great experience renting a truck from Pulltail for a local move. The truck was in excellent condition and drove smoothly, making my move stress-free. The staff was professional and efficient, getting me in and out quickly so I could focus on my move. I would definitely rent from Pulltail again in the future.</p>	
 							</div>
 						</div>
 					</div>
@@ -5110,7 +5094,7 @@
 								<div class="review-box">
 									<div class="review-profile">
 										<div class="review-img">
-											<img src="assets/img/profiles/avatar-07.jpg" class="img-fluid" alt="img">
+											<img src="assets/img/profiles/profile.png" class="img-fluid" alt="img">
 										</div>															
 									</div>
 									<div class="review-details">
@@ -5127,7 +5111,7 @@
 										</div>																	
 									</div>
 								</div>									
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>	
+								<p>I recently rented a truck from Pulltail for a cross-country move and I was blown away by their service. The truck was spacious and comfortable, making the long drive much more enjoyable. The staff was friendly and accommodating, even helping me to plan my route. I highly recommend Pulltail for anyone in need of a reliable truck rental.</p>	
 							</div>
 						</div>
 					</div>
@@ -5138,7 +5122,7 @@
 		<!-- About us Testimonials -->
 
 		<!-- FAQ  -->
-		<section class="section faq-section bg-light-primary">
+		<section class="section faq-section bg-light-primary" style="display: none;">
 			<div class="container">				
 				<!-- Heading title-->
 				<div class="section-heading" data-aos="fade-down">
@@ -5209,7 +5193,7 @@
 		<!-- /FAQ -->
 
 		<!-- Pricing Plan -->
-		<section class="pricing-section pricing-page pricing-section-bottom">
+		<section class="pricing-section pricing-page pricing-section-bottom" style="display: none;">
 			<div class="container">
 				<!-- Heading title-->
 				<div class="section-heading" data-aos="fade-down">
@@ -5360,7 +5344,7 @@
 							<div class="row">
 								<div class="col-lg-4 col-md-6">
 									<!-- Footer Widget -->
-									<div class="footer-widget footer-menu">
+									<!-- class="footer-widget footer-menu">
 										<h5 class="footer-title">About Company</h5>
 										<ul>
 											<li>
@@ -5385,12 +5369,12 @@
 												<a href="javascript:void(0)">Virtual Auto Show</a>
 											</li>									
 										</ul>
-									</div>
+									</!--> 
 									<!-- /Footer Widget -->
 								</div>
 								<div class="col-lg-4 col-md-6">
 									<!-- Footer Widget -->
-									<div class="footer-widget footer-menu">
+									<div class="footer-widget footer-menu" style="display: none;">
 										<h5 class="footer-title">Vehicles Type</h5>
 										<ul>
 											<li>
@@ -5474,7 +5458,7 @@
 										</form>
 									</div>
 								</div>								
-								<div class="footer-social-widget">
+								<div class="footer-social-widget" style="display: none;">
 									<h6>Connect with us</h6>
 									<ul class="nav-social">
 										<li>
@@ -5509,7 +5493,7 @@
 						<div class="row align-items-center">
 							<div class="col-md-6">
 								<div class="copyright-text">
-									<p>© 2023 Dreams Rent. All Rights Reserved.</p>
+									<p>© 2023 Pulltail. All Rights Reserved.</p>
 								</div>
 							</div>
 							<div class="col-md-6">

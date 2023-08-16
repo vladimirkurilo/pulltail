@@ -61,7 +61,8 @@
 <!-- /Why Choose Us -->
 
 <!-- About us Testimonials -->
-<section class="section about-testimonial testimonials-section">
+<section class="section about-testimonial testimonials-section" style="background-image: none;
+    background-color: gainsboro;">
     <div class="container">
         <!-- Heading title-->
         <div class="section-heading" data-aos="fade-down">
@@ -80,7 +81,7 @@
                         <div class="review-box">
                             <div class="review-profile">
                                 <div class="review-img">
-                                    <img src="{{ URL::asset('/assets/img/profiles/avatar-02.jpg') }}" class="img-fluid"
+                                    <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}" class="img-fluid"
                                         alt="img">
                                 </div>
                             </div>
@@ -98,9 +99,7 @@
                                 </div>
                             </div>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p>I needed a truck rental for a weekend project and Pulltail was the perfect choice. Their rental process was quick and easy, and the truck was exactly what I needed for the job. The staff was friendly and helpful, providing me with all the information I needed to make my rental experience a success. I would definitely rent from Pulltail again.</p>
                     </div>
                 </div>
             </div>
@@ -114,7 +113,7 @@
                         <div class="review-box">
                             <div class="review-profile">
                                 <div class="review-img">
-                                    <img src="{{ URL::asset('/assets/img/profiles/avatar-03.jpg') }}" class="img-fluid"
+                                    <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}" class="img-fluid"
                                         alt="img">
                                 </div>
                             </div>
@@ -148,7 +147,7 @@
                         <div class="review-box">
                             <div class="review-profile">
                                 <div class="review-img">
-                                    <img src="{{ URL::asset('/assets/img/profiles/avatar-04.jpg') }}" class="img-fluid"
+                                    <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}" class="img-fluid"
                                         alt="img">
                                 </div>
                             </div>
@@ -182,7 +181,7 @@
                         <div class="review-box">
                             <div class="review-profile">
                                 <div class="review-img">
-                                    <img src="{{ URL::asset('/assets/img/profiles/avatar-06.jpg') }}"
+                                    <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                         class="img-fluid" alt="img">
                                 </div>
                             </div>
@@ -200,9 +199,7 @@
                                 </div>
                             </div>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p>I had a great experience renting a truck from Pulltail for a local move. The truck was in excellent condition and drove smoothly, making my move stress-free. The staff was professional and efficient, getting me in and out quickly so I could focus on my move. I would definitely rent from Pulltail again in the future.</p>
                     </div>
                 </div>
             </div>
@@ -216,7 +213,7 @@
                         <div class="review-box">
                             <div class="review-profile">
                                 <div class="review-img">
-                                    <img src="{{ URL::asset('/assets/img/profiles/avatar-07.jpg') }}"
+                                    <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                         class="img-fluid" alt="img">
                                 </div>
                             </div>
@@ -234,9 +231,7 @@
                                 </div>
                             </div>
                         </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p>I recently rented a truck from Pulltail for a cross-country move and I was blown away by their service. The truck was spacious and comfortable, making the long drive much more enjoyable. The staff was friendly and accommodating, even helping me to plan my route. I highly recommend Pulltail for anyone in need of a reliable truck rental.</p>
                     </div>
                 </div>
             </div>
@@ -248,7 +243,7 @@
 
 
 <!-- FAQ  -->
-<section class="section faq-section bg-light-primary">
+<section class="section faq-section bg-light-primary" style="display: none;">
     <div class="container">
         <!-- Heading title-->
         <div class="section-heading" data-aos="fade-down">

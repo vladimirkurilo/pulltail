@@ -1,6 +1,6 @@
 /*
 Author       : Dreamguys
-Template Name: Dreams Rent - Bootstrap Template
+Template Name: Pulltail - Bootstrap Template
 Version      : 1.0
 */
 

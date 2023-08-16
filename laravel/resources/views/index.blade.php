@@ -246,7 +246,7 @@
                                 <div class="listing-content">
                                     <div class="listing-features">
                                         <a href="javascript:void(0)" class="author-img">
-                                            <img src="{{ URL::asset('/assets/img/profiles/avatar-0.jpg') }}"
+                                            <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                 alt="author">
                                         </a>
                                         <h3 class="listing-title">
@@ -332,7 +332,7 @@
                                 <div class="listing-content">
                                     <div class="listing-features">
                                         <a href="javascript:void(0)" class="author-img">
-                                            <img src="{{ URL::asset('/assets/img/profiles/avatar-02.jpg') }}"
+                                            <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                 alt="author">
                                         </a>
                                         <h3 class="listing-title">
@@ -418,7 +418,7 @@
                                 <div class="listing-content">
                                     <div class="listing-features">
                                         <a href="javascript:void(0)" class="author-img">
-                                            <img src="{{ URL::asset('/assets/img/profiles/avatar-03.jpg') }}"
+                                            <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                 alt="author">
                                         </a>
                                         <h3 class="listing-title">
@@ -504,7 +504,7 @@
                                 <div class="listing-content">
                                     <div class="listing-features">
                                         <a href="javascript:void(0)" class="author-img">
-                                            <img src="{{ URL::asset('/assets/img/profiles/avatar-04.jpg') }}"
+                                            <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                 alt="author">
                                         </a>
                                         <h3 class="listing-title">
@@ -590,7 +590,7 @@
                                 <div class="listing-content">
                                     <div class="listing-features">
                                         <a href="javascript:void(0)" class="author-img">
-                                            <img src="{{ URL::asset('/assets/img/profiles/avatar-05.jpg') }}"
+                                            <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                 alt="author">
                                         </a>
                                         <h3 class="listing-title">
@@ -676,7 +676,7 @@
                                 <div class="listing-content">
                                     <div class="listing-features">
                                         <a href="javascript:void(0)" class="author-img">
-                                            <img src="{{ URL::asset('/assets/img/profiles/avatar-06.jpg') }}"
+                                            <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                 alt="author">
                                         </a>
                                         <h3 class="listing-title">
@@ -762,7 +762,7 @@
                                 <div class="listing-content">
                                     <div class="listing-features">
                                         <a href="javascript:void(0)" class="author-img">
-                                            <img src="{{ URL::asset('/assets/img/profiles/avatar-07.jpg') }}"
+                                            <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                 alt="author">
                                         </a>
                                         <h3 class="listing-title">
@@ -848,7 +848,7 @@
                                 <div class="listing-content">
                                     <div class="listing-features">
                                         <a href="javascript:void(0)" class="author-img">
-                                            <img src="{{ URL::asset('/assets/img/profiles/avatar-08.jpg') }}"
+                                            <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                 alt="author">
                                         </a>
                                         <h3 class="listing-title">
@@ -934,7 +934,7 @@
                                 <div class="listing-content">
                                     <div class="listing-features">
                                         <a href="javascript:void(0)" class="author-img">
-                                            <img src="{{ URL::asset('/assets/img/profiles/avatar-10.jpg') }}"
+                                            <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                 alt="author">
                                         </a>
                                         <h3 class="listing-title">
@@ -1023,7 +1023,7 @@
                                 <div class="listing-content">
                                     <div class="listing-features">
                                         <a href="javascript:void(0)" class="author-img">
-                                            <img src="{{ URL::asset('/assets/img/profiles/avatar-03.jpg') }}"
+                                            <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                 alt="author">
                                         </a>
                                         <h3 class="listing-title">
@@ -1108,7 +1108,7 @@
                                 <div class="listing-content">
                                     <div class="listing-features">
                                         <a href="javascript:void(0)" class="author-img">
-                                            <img src="{{ URL::asset('/assets/img/profiles/avatar-04.jpg') }}"
+                                            <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                 alt="author">
                                         </a>
                                         <h3 class="listing-title">
@@ -1194,7 +1194,7 @@
                                 <div class="listing-content">
                                     <div class="listing-features">
                                         <a href="javascript:void(0)" class="author-img">
-                                            <img src="{{ URL::asset('/assets/img/profiles/avatar-05.jpg') }}"
+                                            <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                 alt="author">
                                         </a>
                                         <h3 class="listing-title">
@@ -1280,7 +1280,7 @@
                                 <div class="listing-content">
                                     <div class="listing-features">
                                         <a href="javascript:void(0)" class="author-img">
-                                            <img src="{{ URL::asset('/assets/img/profiles/avatar-06.jpg') }}"
+                                            <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                 alt="author">
                                         </a>
                                         <h3 class="listing-title">
@@ -1366,7 +1366,7 @@
                                 <div class="listing-content">
                                     <div class="listing-features">
                                         <a href="javascript:void(0)" class="author-img">
-                                            <img src="{{ URL::asset('/assets/img/profiles/avatar-07.jpg') }}"
+                                            <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                 alt="author">
                                         </a>
                                         <h3 class="listing-title">
@@ -1452,7 +1452,7 @@
                                 <div class="listing-content">
                                     <div class="listing-features">
                                         <a href="javascript:void(0)" class="author-img">
-                                            <img src="{{ URL::asset('/assets/img/profiles/avatar-08.jpg') }}"
+                                            <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                 alt="author">
                                         </a>
                                         <h3 class="listing-title">
@@ -1538,7 +1538,7 @@
                                 <div class="listing-content">
                                     <div class="listing-features">
                                         <a href="javascript:void(0)" class="author-img">
-                                            <img src="{{ URL::asset('/assets/img/profiles/avatar-0.jpg') }}"
+                                            <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                 alt="author">
                                         </a>
                                         <h3 class="listing-title">
@@ -1624,7 +1624,7 @@
                                 <div class="listing-content">
                                     <div class="listing-features">
                                         <a href="javascript:void(0)" class="author-img">
-                                            <img src="{{ URL::asset('/assets/img/profiles/avatar-02.jpg') }}"
+                                            <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                 alt="author">
                                         </a>
                                         <h3 class="listing-title">
@@ -1710,7 +1710,7 @@
                                 <div class="listing-content">
                                     <div class="listing-features">
                                         <a href="javascript:void(0)" class="author-img">
-                                            <img src="{{ URL::asset('/assets/img/profiles/avatar-10.jpg') }}"
+                                            <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                 alt="author">
                                         </a>
                                         <h3 class="listing-title">
@@ -1799,7 +1799,7 @@
                                 <div class="listing-content">
                                     <div class="listing-features">
                                         <a href="javascript:void(0)" class="author-img">
-                                            <img src="{{ URL::asset('/assets/img/profiles/avatar-08.jpg') }}"
+                                            <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                 alt="author">
                                         </a>
                                         <h3 class="listing-title">
@@ -1885,7 +1885,7 @@
                                 <div class="listing-content">
                                     <div class="listing-features">
                                         <a href="javascript:void(0)" class="author-img">
-                                            <img src="{{ URL::asset('/assets/img/profiles/avatar-0.jpg') }}"
+                                            <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                 alt="author">
                                         </a>
                                         <h3 class="listing-title">
@@ -1971,7 +1971,7 @@
                                 <div class="listing-content">
                                     <div class="listing-features">
                                         <a href="javascript:void(0)" class="author-img">
-                                            <img src="{{ URL::asset('/assets/img/profiles/avatar-02.jpg') }}"
+                                            <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                 alt="author">
                                         </a>
                                         <h3 class="listing-title">
@@ -2057,7 +2057,7 @@
                                 <div class="listing-content">
                                     <div class="listing-features">
                                         <a href="javascript:void(0)" class="author-img">
-                                            <img src="{{ URL::asset('/assets/img/profiles/avatar-03.jpg') }}"
+                                            <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                 alt="author">
                                         </a>
                                         <h3 class="listing-title">
@@ -2143,7 +2143,7 @@
                                 <div class="listing-content">
                                     <div class="listing-features">
                                         <a href="javascript:void(0)" class="author-img">
-                                            <img src="{{ URL::asset('/assets/img/profiles/avatar-04.jpg') }}"
+                                            <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                 alt="author">
                                         </a>
                                         <h3 class="listing-title">
@@ -2229,7 +2229,7 @@
                                 <div class="listing-content">
                                     <div class="listing-features">
                                         <a href="javascript:void(0)" class="author-img">
-                                            <img src="{{ URL::asset('/assets/img/profiles/avatar-05.jpg') }}"
+                                            <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                 alt="author">
                                         </a>
                                         <h3 class="listing-title">
@@ -2315,7 +2315,7 @@
                                 <div class="listing-content">
                                     <div class="listing-features">
                                         <a href="javascript:void(0)" class="author-img">
-                                            <img src="{{ URL::asset('/assets/img/profiles/avatar-06.jpg') }}"
+                                            <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                 alt="author">
                                         </a>
                                         <h3 class="listing-title">
@@ -2401,7 +2401,7 @@
                                 <div class="listing-content">
                                     <div class="listing-features">
                                         <a href="javascript:void(0)" class="author-img">
-                                            <img src="{{ URL::asset('/assets/img/profiles/avatar-07.jpg') }}"
+                                            <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                 alt="author">
                                         </a>
                                         <h3 class="listing-title">
@@ -2487,7 +2487,7 @@
                                 <div class="listing-content">
                                     <div class="listing-features">
                                         <a href="javascript:void(0)" class="author-img">
-                                            <img src="{{ URL::asset('/assets/img/profiles/avatar-08.jpg') }}"
+                                            <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                 alt="author">
                                         </a>
                                         <h3 class="listing-title">
@@ -2576,7 +2576,7 @@
                                 <div class="listing-content">
                                     <div class="listing-features">
                                         <a href="javascript:void(0)" class="author-img">
-                                            <img src="{{ URL::asset('/assets/img/profiles/avatar-0.jpg') }}"
+                                            <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                 alt="author">
                                         </a>
                                         <h3 class="listing-title">
@@ -2662,7 +2662,7 @@
                                 <div class="listing-content">
                                     <div class="listing-features">
                                         <a href="javascript:void(0)" class="author-img">
-                                            <img src="{{ URL::asset('/assets/img/profiles/avatar-02.jpg') }}"
+                                            <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                 alt="author">
                                         </a>
                                         <h3 class="listing-title">
@@ -2748,7 +2748,7 @@
                                 <div class="listing-content">
                                     <div class="listing-features">
                                         <a href="javascript:void(0)" class="author-img">
-                                            <img src="{{ URL::asset('/assets/img/profiles/avatar-03.jpg') }}"
+                                            <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                 alt="author">
                                         </a>
                                         <h3 class="listing-title">
@@ -2834,7 +2834,7 @@
                                 <div class="listing-content">
                                     <div class="listing-features">
                                         <a href="javascript:void(0)" class="author-img">
-                                            <img src="{{ URL::asset('/assets/img/profiles/avatar-04.jpg') }}"
+                                            <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                 alt="author">
                                         </a>
                                         <h3 class="listing-title">
@@ -2920,7 +2920,7 @@
                                 <div class="listing-content">
                                     <div class="listing-features">
                                         <a href="javascript:void(0)" class="author-img">
-                                            <img src="{{ URL::asset('/assets/img/profiles/avatar-05.jpg') }}"
+                                            <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                 alt="author">
                                         </a>
                                         <h3 class="listing-title">
@@ -3006,7 +3006,7 @@
                                 <div class="listing-content">
                                     <div class="listing-features">
                                         <a href="javascript:void(0)" class="author-img">
-                                            <img src="{{ URL::asset('/assets/img/profiles/avatar-06.jpg') }}"
+                                            <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                 alt="author">
                                         </a>
                                         <h3 class="listing-title">
@@ -3092,7 +3092,7 @@
                                 <div class="listing-content">
                                     <div class="listing-features">
                                         <a href="javascript:void(0)" class="author-img">
-                                            <img src="{{ URL::asset('/assets/img/profiles/avatar-07.jpg') }}"
+                                            <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                 alt="author">
                                         </a>
                                         <h3 class="listing-title">
@@ -3178,7 +3178,7 @@
                                 <div class="listing-content">
                                     <div class="listing-features">
                                         <a href="javascript:void(0)" class="author-img">
-                                            <img src="{{ URL::asset('/assets/img/profiles/avatar-08.jpg') }}"
+                                            <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                 alt="author">
                                         </a>
                                         <h3 class="listing-title">
@@ -3264,7 +3264,7 @@
                                 <div class="listing-content">
                                     <div class="listing-features">
                                         <a href="javascript:void(0)" class="author-img">
-                                            <img src="{{ URL::asset('/assets/img/profiles/avatar-10.jpg') }}"
+                                            <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                 alt="author">
                                         </a>
                                         <h3 class="listing-title">
@@ -3353,7 +3353,7 @@
                                 <div class="listing-content">
                                     <div class="listing-features">
                                         <a href="javascript:void(0)" class="author-img">
-                                            <img src="{{ URL::asset('/assets/img/profiles/avatar-0.jpg') }}"
+                                            <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                 alt="author">
                                         </a>
                                         <h3 class="listing-title">
@@ -3439,7 +3439,7 @@
                                 <div class="listing-content">
                                     <div class="listing-features">
                                         <a href="javascript:void(0)" class="author-img">
-                                            <img src="{{ URL::asset('/assets/img/profiles/avatar-02.jpg') }}"
+                                            <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                 alt="author">
                                         </a>
                                         <h3 class="listing-title">
@@ -3525,7 +3525,7 @@
                                 <div class="listing-content">
                                     <div class="listing-features">
                                         <a href="javascript:void(0)" class="author-img">
-                                            <img src="{{ URL::asset('/assets/img/profiles/avatar-03.jpg') }}"
+                                            <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                 alt="author">
                                         </a>
                                         <h3 class="listing-title">
@@ -3611,7 +3611,7 @@
                                 <div class="listing-content">
                                     <div class="listing-features">
                                         <a href="javascript:void(0)" class="author-img">
-                                            <img src="{{ URL::asset('/assets/img/profiles/avatar-04.jpg') }}"
+                                            <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                 alt="author">
                                         </a>
                                         <h3 class="listing-title">
@@ -3697,7 +3697,7 @@
                                 <div class="listing-content">
                                     <div class="listing-features">
                                         <a href="javascript:void(0)" class="author-img">
-                                            <img src="{{ URL::asset('/assets/img/profiles/avatar-05.jpg') }}"
+                                            <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                 alt="author">
                                         </a>
                                         <h3 class="listing-title">
@@ -3783,7 +3783,7 @@
                                 <div class="listing-content">
                                     <div class="listing-features">
                                         <a href="javascript:void(0)" class="author-img">
-                                            <img src="{{ URL::asset('/assets/img/profiles/avatar-06.jpg') }}"
+                                            <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                 alt="author">
                                         </a>
                                         <h3 class="listing-title">
@@ -3869,7 +3869,7 @@
                                 <div class="listing-content">
                                     <div class="listing-features">
                                         <a href="javascript:void(0)" class="author-img">
-                                            <img src="{{ URL::asset('/assets/img/profiles/avatar-07.jpg') }}"
+                                            <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                 alt="author">
                                         </a>
                                         <h3 class="listing-title">
@@ -3955,7 +3955,7 @@
                                 <div class="listing-content">
                                     <div class="listing-features">
                                         <a href="javascript:void(0)" class="author-img">
-                                            <img src="{{ URL::asset('/assets/img/profiles/avatar-08.jpg') }}"
+                                            <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                 alt="author">
                                         </a>
                                         <h3 class="listing-title">
@@ -4041,7 +4041,7 @@
                                 <div class="listing-content">
                                     <div class="listing-features">
                                         <a href="javascript:void(0)" class="author-img">
-                                            <img src="{{ URL::asset('/assets/img/profiles/avatar-10.jpg') }}"
+                                            <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                 alt="author">
                                         </a>
                                         <h3 class="listing-title">
@@ -4130,7 +4130,7 @@
                                 <div class="listing-content">
                                     <div class="listing-features">
                                         <a href="javascript:void(0)" class="author-img">
-                                            <img src="{{ URL::asset('/assets/img/profiles/avatar-08.jpg') }}"
+                                            <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                 alt="author">
                                         </a>
                                         <h3 class="listing-title">
@@ -4216,7 +4216,7 @@
                                 <div class="listing-content">
                                     <div class="listing-features">
                                         <a href="javascript:void(0)" class="author-img">
-                                            <img src="{{ URL::asset('/assets/img/profiles/avatar-0.jpg') }}"
+                                            <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                 alt="author">
                                         </a>
                                         <h3 class="listing-title">
@@ -4302,7 +4302,7 @@
                                 <div class="listing-content">
                                     <div class="listing-features">
                                         <a href="javascript:void(0)" class="author-img">
-                                            <img src="{{ URL::asset('/assets/img/profiles/avatar-02.jpg') }}"
+                                            <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                 alt="author">
                                         </a>
                                         <h3 class="listing-title">
@@ -4388,7 +4388,7 @@
                                 <div class="listing-content">
                                     <div class="listing-features">
                                         <a href="javascript:void(0)" class="author-img">
-                                            <img src="{{ URL::asset('/assets/img/profiles/avatar-03.jpg') }}"
+                                            <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                 alt="author">
                                         </a>
                                         <h3 class="listing-title">
@@ -4474,7 +4474,7 @@
                                 <div class="listing-content">
                                     <div class="listing-features">
                                         <a href="javascript:void(0)" class="author-img">
-                                            <img src="{{ URL::asset('/assets/img/profiles/avatar-04.jpg') }}"
+                                            <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                 alt="author">
                                         </a>
                                         <h3 class="listing-title">
@@ -4560,7 +4560,7 @@
                                 <div class="listing-content">
                                     <div class="listing-features">
                                         <a href="javascript:void(0)" class="author-img">
-                                            <img src="{{ URL::asset('/assets/img/profiles/avatar-05.jpg') }}"
+                                            <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                 alt="author">
                                         </a>
                                         <h3 class="listing-title">
@@ -4646,7 +4646,7 @@
                                 <div class="listing-content">
                                     <div class="listing-features">
                                         <a href="javascript:void(0)" class="author-img">
-                                            <img src="{{ URL::asset('/assets/img/profiles/avatar-06.jpg') }}"
+                                            <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                 alt="author">
                                         </a>
                                         <h3 class="listing-title">
@@ -4732,7 +4732,7 @@
                                 <div class="listing-content">
                                     <div class="listing-features">
                                         <a href="javascript:void(0)" class="author-img">
-                                            <img src="{{ URL::asset('/assets/img/profiles/avatar-07.jpg') }}"
+                                            <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                 alt="author">
                                         </a>
                                         <h3 class="listing-title">
@@ -4818,7 +4818,7 @@
                                 <div class="listing-content">
                                     <div class="listing-features">
                                         <a href="javascript:void(0)" class="author-img">
-                                            <img src="{{ URL::asset('/assets/img/profiles/avatar-08.jpg') }}"
+                                            <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                 alt="author">
                                         </a>
                                         <h3 class="listing-title">
@@ -5016,11 +5016,11 @@
                         <div class="count-group flex-fill">
                             <div class="customer-count d-flex align-items-center">
                                 <div class="count-img">
-                                    <img src="{{ URL::asset('/assets/img/icons/bx-car.svg') }}" alt="">
+                                    <img src="{{ URL::asset('/assets/img/icons/trailer.png') }}" alt="">
                                 </div>
                                 <div class="count-content">
                                     <h4><span class="counterUp">2547</span>+</h4>
-                                    <p>Count of Cars</p>
+                                    <p>Count of trailers</p>
                                 </div>
                             </div>
                         </div>
@@ -5033,7 +5033,7 @@
                                 </div>
                                 <div class="count-content">
                                     <h4><span class="counterUp">625</span>K+</h4>
-                                    <p>Car Center Solutions</p>
+                                    <p>Trailers Center Solutions</p>
                                 </div>
                             </div>
                         </div>

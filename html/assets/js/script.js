@@ -1,9 +1,9 @@
 /*
 Author       : Dreamguys
-Template Name: Dreams Rent - Bootstrap Template
+Template Name: Pulltail - Bootstrap Template
 Version      : 1.0
 */
-
+var calendarElements=[], timeElements=[];
 (function($) {
 	"use strict";
 	
@@ -102,30 +102,34 @@ Version      : 1.0
 	}
 	
 	// Datepicker	
-
 	if($('.datetimepicker').length > 0 ){
-		$('.datetimepicker').datetimepicker({
-			format: 'DD-MM-YYYY',
-			icons: {
-				up: "fas fa-angle-up",
-				down: "fas fa-angle-down",
-				next: 'fas fa-angle-right',
-				previous: 'fas fa-angle-left'
-			}
+		$('.datetimepicker').each(function(indx, el){
+			calendarElements[indx]=$(el).datetimepicker({
+				format: 'MM.DD.YYYY',
+				icons: {
+					up: "fas fa-angle-up",
+					down: "fas fa-angle-down",
+					next: 'fas fa-angle-right',
+					previous: 'fas fa-angle-left'
+				}
+			});
 		});
 	}
 
 	// Timepicker
 
 	if($('.timepicker').length > 0) {
-		$('.timepicker').datetimepicker({
-			format: "hh:mm:ss",
-			icons: {
-				up: "fa fa-angle-up",
-				down: "fa fa-angle-down",
-				next: 'fa fa-angle-right',
-				previous: 'fa fa-angle-left'
-			}
+		$('.timepicker').each(function(indx, el){
+			timeElements[indx]=$(el).datetimepicker({
+				format: "hh:mm A",
+				locale: "en",
+				icons: {
+					up: "fa fa-angle-up",
+					down: "fa fa-angle-down",
+					next: 'fa fa-angle-right',
+					previous: 'fa fa-angle-left'
+				}
+			});
 		});
 	}
 
@@ -339,6 +343,39 @@ Version      : 1.0
             time: 1500
         });
 	}
+	
+	$(calendarElements[0]).data("DateTimePicker").date(new Date());
+	$(timeElements[0]).data("DateTimePicker").date(new Date());
+	setReturnDateTime();
+	
+	
+	$('select[name=user_profile_color_1]').change(function(){
+		
+		setReturnDateTime();
+		
+	});
+	
+	$(calendarElements[0]).on("dp.change", function(e) {
+		setReturnDateTime();
+	});
+	
+	$(timeElements[0]).on("dp.change", function(e) {
+		setReturnDateTime();
+	});
+	
+	function setReturnDateTime()
+		{
+		var rentalType = $('select[name=user_profile_color_1] option:selected').attr('value'), 
+			returnDate, returnTime,
+			pickupDate = $(calendarElements[0]).data("DateTimePicker").date();
+		returnDate = new Date(pickupDate);
+		returnTime=new Date($(timeElements[0]).data("DateTimePicker").date());
+		if (rentalType == "1") {returnDate.setDate(returnDate.getDate() + 1);returnTime.setDate(returnTime.getDate() + 1);}
+		if (rentalType == "2") {returnDate.setMonth(returnDate.getMonth() + 1);returnTime.setMonth(returnTime.getMonth() + 1);}
+		if (rentalType == "3") {returnDate.setFullYear(returnDate.getFullYear() + 1);returnTime.setFullYear(returnTime.getFullYear() + 1);}
+		$(calendarElements[1]).data("DateTimePicker").date(returnDate);
+		$(timeElements[1]).data("DateTimePicker").date(returnTime);
+		}
 	
 	
 })(jQuery);

@@ -245,7 +245,7 @@ export class DataService {
     {
       carName: 'Toyota',
       img1: 'assets/img/cars/car-01.jpg',
-      img2: 'assets/img/profiles/avatar-0.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: 'Toyota Camry SE 350',
       rating: '(5.0)',
       carDetail1: 'Auto',
@@ -263,7 +263,7 @@ export class DataService {
     {
       carName: 'KIA',
       img1: 'assets/img/cars/car-02.jpg',
-      img2: 'assets/img/profiles/avatar-02.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: 'Kia Soul 2016',
       rating: '(5.0)',
       carDetail1: 'Auto',
@@ -281,7 +281,7 @@ export class DataService {
     {
       carName: 'Audi',
       img1: 'assets/img/cars/car-03.jpg',
-      img2: 'assets/img/profiles/avatar-03.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: 'Audi A3 2019 new',
       rating: '(5.0)',
       carDetail1: 'Manual',
@@ -299,7 +299,7 @@ export class DataService {
     {
       carName: 'Ferrai',
       img1: 'assets/img/cars/car-04.jpg',
-      img2: 'assets/img/profiles/avatar-04.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: 'Ferrari 458 MM Speciale',
       rating: '(5.0)',
       carDetail1: 'Manual',
@@ -317,7 +317,7 @@ export class DataService {
     {
       carName: 'Chevrolet',
       img1: 'assets/img/cars/car-05.jpg',
-      img2: 'assets/img/profiles/avatar-05.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: '2018 Chevrolet Camaro',
       rating: '(5.0)',
       carDetail1: 'Manual',
@@ -335,7 +335,7 @@ export class DataService {
     {
       carName: 'Acura',
       img1: 'assets/img/cars/car-06.jpg',
-      img2: 'assets/img/profiles/avatar-06.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: 'Acura Sport Version',
       rating: '(5.0)',
       carDetail1: 'Auto',
@@ -353,7 +353,7 @@ export class DataService {
     {
       carName: 'Chevrolet',
       img1: 'assets/img/cars/car-07.jpg',
-      img2: 'assets/img/profiles/avatar-07.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: 'Chevrolet Pick Truck 3.5L',
       rating: '(5.0)',
       carDetail1: 'Manual',
@@ -371,7 +371,7 @@ export class DataService {
     {
       carName: 'Toyota',
       img1: 'assets/img/cars/car-08.jpg',
-      img2: 'assets/img/profiles/avatar-08.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: 'Toyota Tacoma 4WD',
       rating: '(5.0)',
       carDetail1: 'Auto',
@@ -389,7 +389,7 @@ export class DataService {
     {
       carName: 'Accura',
       img1: 'assets/img/cars/car-09.jpg',
-      img2: 'assets/img/profiles/avatar-10.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: 'Acura RDX FWD',
       rating: '(5.0)',
       carDetail1: 'Auto',
@@ -409,7 +409,7 @@ export class DataService {
     {
       carName: 'Audi',
       img1: 'assets/img/cars/car-03.jpg',
-      img2: 'assets/img/profiles/avatar-03.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: 'Audi A3 2019 new',
       rating: '(5.0)',
       carDetail1: 'Manual',
@@ -427,7 +427,7 @@ export class DataService {
     {
       carName: 'Ferrai',
       img1: 'assets/img/cars/car-04.jpg',
-      img2: 'assets/img/profiles/avatar-04.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: 'Ferrari 458 MM Speciale',
       rating: '(5.0)',
       carDetail1: 'Manual',
@@ -445,7 +445,7 @@ export class DataService {
     {
       carName: 'Chevrolet',
       img1: 'assets/img/cars/car-05.jpg',
-      img2: 'assets/img/profiles/avatar-05.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: '2018 Chevrolet Camaro',
       rating: '(5.0)',
       carDetail1: 'Manual',
@@ -463,7 +463,7 @@ export class DataService {
     {
       carName: 'Acura',
       img1: 'assets/img/cars/car-06.jpg',
-      img2: 'assets/img/profiles/avatar-06.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: 'Acura Sport Version',
       rating: '(5.0)',
       carDetail1: 'Auto',
@@ -481,7 +481,7 @@ export class DataService {
     {
       carName: 'Chevrolet',
       img1: 'assets/img/cars/car-07.jpg',
-      img2: 'assets/img/profiles/avatar-07.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: 'Chevrolet Pick Truck 3.5L',
       rating: '(5.0)',
       carDetail1: 'Manual',
@@ -499,7 +499,7 @@ export class DataService {
     {
       carName: 'Toyota',
       img1: 'assets/img/cars/car-08.jpg',
-      img2: 'assets/img/profiles/avatar-08.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: 'Toyota Tacoma 4WD',
       rating: '(5.0)',
       carDetail1: 'Auto',
@@ -517,7 +517,7 @@ export class DataService {
     {
       carName: 'Toyota',
       img1: 'assets/img/cars/car-01.jpg',
-      img2: 'assets/img/profiles/avatar-0.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: 'Toyota Camry SE 350',
       rating: '(5.0)',
       carDetail1: 'Auto',
@@ -535,7 +535,7 @@ export class DataService {
     {
       carName: 'KIA',
       img1: 'assets/img/cars/car-02.jpg',
-      img2: 'assets/img/profiles/avatar-02.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: 'Kia Soul 2016',
       rating: '(5.0)',
       carDetail1: 'Auto',
@@ -553,7 +553,7 @@ export class DataService {
     {
       carName: 'Accura',
       img1: 'assets/img/cars/car-09.jpg',
-      img2: 'assets/img/profiles/avatar-10.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: 'Acura RDX FWD',
       rating: '(5.0)',
       carDetail1: 'Auto',
@@ -573,7 +573,7 @@ export class DataService {
     {
       carName: 'Toyota',
       img1: 'assets/img/cars/car-08.jpg',
-      img2: 'assets/img/profiles/avatar-08.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: 'Toyota Tacoma 4WD',
       rating: '(5.0)',
       carDetail1: 'Auto',
@@ -591,7 +591,7 @@ export class DataService {
     {
       carName: 'Toyota',
       img1: 'assets/img/cars/car-01.jpg',
-      img2: 'assets/img/profiles/avatar-0.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: 'Toyota Camry SE 350',
       rating: '(5.0)',
       carDetail1: 'Auto',
@@ -609,7 +609,7 @@ export class DataService {
     {
       carName: 'KIA',
       img1: 'assets/img/cars/car-02.jpg',
-      img2: 'assets/img/profiles/avatar-02.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: 'Kia Soul 2016',
       rating: '(5.0)',
       carDetail1: 'Auto',
@@ -627,7 +627,7 @@ export class DataService {
     {
       carName: 'Audi',
       img1: 'assets/img/cars/car-03.jpg',
-      img2: 'assets/img/profiles/avatar-03.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: 'Audi A3 2019 new',
       rating: '(5.0)',
       carDetail1: 'Manual',
@@ -645,7 +645,7 @@ export class DataService {
     {
       carName: 'Ferrai',
       img1: 'assets/img/cars/car-04.jpg',
-      img2: 'assets/img/profiles/avatar-04.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: 'Ferrari 458 MM Speciale',
       rating: '(5.0)',
       carDetail1: 'Manual',
@@ -663,7 +663,7 @@ export class DataService {
     {
       carName: 'Chevrolet',
       img1: 'assets/img/cars/car-05.jpg',
-      img2: 'assets/img/profiles/avatar-05.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: '2018 Chevrolet Camaro',
       rating: '(5.0)',
       carDetail1: 'Manual',
@@ -681,7 +681,7 @@ export class DataService {
     {
       carName: 'Acura',
       img1: 'assets/img/cars/car-06.jpg',
-      img2: 'assets/img/profiles/avatar-06.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: 'Acura Sport Version',
       rating: '(5.0)',
       carDetail1: 'Auto',
@@ -699,7 +699,7 @@ export class DataService {
     {
       carName: 'Chevrolet',
       img1: 'assets/img/cars/car-07.jpg',
-      img2: 'assets/img/profiles/avatar-07.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: 'Chevrolet Pick Truck 3.5L',
       rating: '(5.0)',
       carDetail1: 'Manual',
@@ -717,7 +717,7 @@ export class DataService {
     {
       carName: 'Accura',
       img1: 'assets/img/cars/car-09.jpg',
-      img2: 'assets/img/profiles/avatar-10.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: 'Acura RDX FWD',
       rating: '(5.0)',
       carDetail1: 'Auto',
@@ -737,7 +737,7 @@ export class DataService {
     {
       carName: 'Toyota',
       img1: 'assets/img/cars/car-01.jpg',
-      img2: 'assets/img/profiles/avatar-0.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: 'Toyota Camry SE 350',
       rating: '(5.0)',
       carDetail1: 'Auto',
@@ -755,7 +755,7 @@ export class DataService {
     {
       carName: 'KIA',
       img1: 'assets/img/cars/car-02.jpg',
-      img2: 'assets/img/profiles/avatar-02.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: 'Kia Soul 2016',
       rating: '(5.0)',
       carDetail1: 'Auto',
@@ -773,7 +773,7 @@ export class DataService {
     {
       carName: 'Audi',
       img1: 'assets/img/cars/car-03.jpg',
-      img2: 'assets/img/profiles/avatar-03.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: 'Audi A3 2019 new',
       rating: '(5.0)',
       carDetail1: 'Manual',
@@ -791,7 +791,7 @@ export class DataService {
     {
       carName: 'Ferrai',
       img1: 'assets/img/cars/car-04.jpg',
-      img2: 'assets/img/profiles/avatar-04.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: 'Ferrari 458 MM Speciale',
       rating: '(5.0)',
       carDetail1: 'Manual',
@@ -809,7 +809,7 @@ export class DataService {
     {
       carName: 'Chevrolet',
       img1: 'assets/img/cars/car-05.jpg',
-      img2: 'assets/img/profiles/avatar-05.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: '2018 Chevrolet Camaro',
       rating: '(5.0)',
       carDetail1: 'Manual',
@@ -827,7 +827,7 @@ export class DataService {
     {
       carName: 'Acura',
       img1: 'assets/img/cars/car-06.jpg',
-      img2: 'assets/img/profiles/avatar-06.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: 'Acura Sport Version',
       rating: '(5.0)',
       carDetail1: 'Auto',
@@ -845,7 +845,7 @@ export class DataService {
     {
       carName: 'Chevrolet',
       img1: 'assets/img/cars/car-07.jpg',
-      img2: 'assets/img/profiles/avatar-07.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: 'Chevrolet Pick Truck 3.5L',
       rating: '(5.0)',
       carDetail1: 'Manual',
@@ -863,7 +863,7 @@ export class DataService {
     {
       carName: 'Toyota',
       img1: 'assets/img/cars/car-08.jpg',
-      img2: 'assets/img/profiles/avatar-08.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: 'Toyota Tacoma 4WD',
       rating: '(5.0)',
       carDetail1: 'Auto',
@@ -881,7 +881,7 @@ export class DataService {
     {
       carName: 'Accura',
       img1: 'assets/img/cars/car-09.jpg',
-      img2: 'assets/img/profiles/avatar-10.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: 'Acura RDX FWD',
       rating: '(5.0)',
       carDetail1: 'Auto',
@@ -901,7 +901,7 @@ export class DataService {
     {
       carName: 'Toyota',
       img1: 'assets/img/cars/car-01.jpg',
-      img2: 'assets/img/profiles/avatar-0.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: 'Toyota Camry SE 350',
       rating: '(5.0)',
       carDetail1: 'Auto',
@@ -919,7 +919,7 @@ export class DataService {
     {
       carName: 'KIA',
       img1: 'assets/img/cars/car-02.jpg',
-      img2: 'assets/img/profiles/avatar-02.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: 'Kia Soul 2016',
       rating: '(5.0)',
       carDetail1: 'Auto',
@@ -937,7 +937,7 @@ export class DataService {
     {
       carName: 'Audi',
       img1: 'assets/img/cars/car-03.jpg',
-      img2: 'assets/img/profiles/avatar-03.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: 'Audi A3 2019 new',
       rating: '(5.0)',
       carDetail1: 'Manual',
@@ -955,7 +955,7 @@ export class DataService {
     {
       carName: 'Ferrai',
       img1: 'assets/img/cars/car-04.jpg',
-      img2: 'assets/img/profiles/avatar-04.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: 'Ferrari 458 MM Speciale',
       rating: '(5.0)',
       carDetail1: 'Manual',
@@ -973,7 +973,7 @@ export class DataService {
     {
       carName: 'Chevrolet',
       img1: 'assets/img/cars/car-05.jpg',
-      img2: 'assets/img/profiles/avatar-05.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: '2018 Chevrolet Camaro',
       rating: '(5.0)',
       carDetail1: 'Manual',
@@ -991,7 +991,7 @@ export class DataService {
     {
       carName: 'Acura',
       img1: 'assets/img/cars/car-06.jpg',
-      img2: 'assets/img/profiles/avatar-06.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: 'Acura Sport Version',
       rating: '(5.0)',
       carDetail1: 'Auto',
@@ -1009,7 +1009,7 @@ export class DataService {
     {
       carName: 'Chevrolet',
       img1: 'assets/img/cars/car-07.jpg',
-      img2: 'assets/img/profiles/avatar-07.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: 'Chevrolet Pick Truck 3.5L',
       rating: '(5.0)',
       carDetail1: 'Manual',
@@ -1027,7 +1027,7 @@ export class DataService {
     {
       carName: 'Toyota',
       img1: 'assets/img/cars/car-08.jpg',
-      img2: 'assets/img/profiles/avatar-08.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: 'Toyota Tacoma 4WD',
       rating: '(5.0)',
       carDetail1: 'Auto',
@@ -1045,7 +1045,7 @@ export class DataService {
     {
       carName: 'Accura',
       img1: 'assets/img/cars/car-09.jpg',
-      img2: 'assets/img/profiles/avatar-10.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: 'Acura RDX FWD',
       rating: '(5.0)',
       carDetail1: 'Auto',
@@ -1065,7 +1065,7 @@ export class DataService {
     {
       carName: 'Toyota',
       img1: 'assets/img/cars/car-08.jpg',
-      img2: 'assets/img/profiles/avatar-08.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: 'Toyota Tacoma 4WD',
       rating: '(5.0)',
       carDetail1: 'Auto',
@@ -1083,7 +1083,7 @@ export class DataService {
     {
       carName: 'Toyota',
       img1: 'assets/img/cars/car-01.jpg',
-      img2: 'assets/img/profiles/avatar-0.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: 'Toyota Camry SE 350',
       rating: '(5.0)',
       carDetail1: 'Auto',
@@ -1101,7 +1101,7 @@ export class DataService {
     {
       carName: 'KIA',
       img1: 'assets/img/cars/car-02.jpg',
-      img2: 'assets/img/profiles/avatar-02.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: 'Kia Soul 2016',
       rating: '(5.0)',
       carDetail1: 'Auto',
@@ -1119,7 +1119,7 @@ export class DataService {
     {
       carName: 'Audi',
       img1: 'assets/img/cars/car-03.jpg',
-      img2: 'assets/img/profiles/avatar-03.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: 'Audi A3 2019 new',
       rating: '(5.0)',
       carDetail1: 'Manual',
@@ -1137,7 +1137,7 @@ export class DataService {
     {
       carName: 'Ferrai',
       img1: 'assets/img/cars/car-04.jpg',
-      img2: 'assets/img/profiles/avatar-04.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: 'Ferrari 458 MM Speciale',
       rating: '(5.0)',
       carDetail1: 'Manual',
@@ -1155,7 +1155,7 @@ export class DataService {
     {
       carName: 'Chevrolet',
       img1: 'assets/img/cars/car-05.jpg',
-      img2: 'assets/img/profiles/avatar-05.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: '2018 Chevrolet Camaro',
       rating: '(5.0)',
       carDetail1: 'Manual',
@@ -1173,7 +1173,7 @@ export class DataService {
     {
       carName: 'Acura',
       img1: 'assets/img/cars/car-06.jpg',
-      img2: 'assets/img/profiles/avatar-06.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: 'Acura Sport Version',
       rating: '(5.0)',
       carDetail1: 'Auto',
@@ -1191,7 +1191,7 @@ export class DataService {
     {
       carName: 'Chevrolet',
       img1: 'assets/img/cars/car-07.jpg',
-      img2: 'assets/img/profiles/avatar-07.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: 'Chevrolet Pick Truck 3.5L',
       rating: '(5.0)',
       carDetail1: 'Manual',
@@ -1209,7 +1209,7 @@ export class DataService {
     {
       carName: 'Accura',
       img1: 'assets/img/cars/car-09.jpg',
-      img2: 'assets/img/profiles/avatar-10.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: 'Acura RDX FWD',
       rating: '(5.0)',
       carDetail1: 'Auto',
@@ -1227,34 +1227,34 @@ export class DataService {
   ];
   public carousel = [
     {
-      img: 'assets/img/profiles/avatar-02.jpg',
+      img: 'assets/img/profiles/profile.png',
       Name: 'Rabien Ustoc',
       rating: '(5.0)',
       para: ' Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laborisnisi ut aliquip ex ea commodo consequat',
     },
     {
-      img: 'assets/img/profiles/avatar-03.jpg',
+      img: 'assets/img/profiles/profile.png',
       Name: 'Valerie L. Ellis',
       rating: '(5.0)',
       para: '  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laborisnisi ut aliquip ex ea commodo consequat.',
     },
     {
-      img: 'assets/img/profiles/avatar-04.jpg',
+      img: 'assets/img/profiles/profile.png',
       Name: 'Laverne Marier',
       rating: '(5.0)',
       para: '  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laborisnisi ut aliquip ex ea commodo consequat.',
     },
     {
-      img: 'assets/img/profiles/avatar-06.jpg',
+      img: 'assets/img/profiles/profile.png',
       Name: 'Sydney Salmons',
       rating: '(5.0)',
       para: '  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laborisnisi ut aliquip ex ea commodo consequat.',
     },
     {
-      img: 'assets/img/profiles/avatar-07.jpg',
+      img: 'assets/img/profiles/profile.png',
       Name: 'Lucas Moquin',
       rating: '(5.0)',
-      para: '  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laborisnisi ut aliquip ex ea commodo consequat.',
+      para: '  I recently rented a truck from Pulltail for a cross-country move and I was blown away by their service. The truck was spacious and comfortable, making the long drive much more enjoyable. The staff was friendly and accommodating, even helping me to plan my route. I highly recommend Pulltail for anyone in need of a reliable truck rental.',
     },
   ];
   public recommendedCar = [
@@ -1303,34 +1303,34 @@ export class DataService {
   ];
   public testimonial = [
     {
-      img: 'assets/img/profiles/avatar-02.jpg',
+      img: 'assets/img/profiles/profile.png',
       Name: 'Rabien Ustoc',
       rating: '(5.0)',
       para: ' Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laborisnisi ut aliquip ex ea commodo consequat',
     },
     {
-      img: 'assets/img/profiles/avatar-03.jpg',
+      img: 'assets/img/profiles/profile.png',
       Name: 'Valerie L. Ellis',
       rating: '(5.0)',
       para: '  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laborisnisi ut aliquip ex ea commodo consequat.',
     },
     {
-      img: 'assets/img/profiles/avatar-04.jpg',
+      img: 'assets/img/profiles/profile.png',
       Name: 'Laverne Marier',
       rating: '(5.0)',
       para: '  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laborisnisi ut aliquip ex ea commodo consequat.',
     },
     {
-      img: 'assets/img/profiles/avatar-06.jpg',
+      img: 'assets/img/profiles/profile.png',
       Name: 'Sydney Salmons',
       rating: '(5.0)',
       para: '  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laborisnisi ut aliquip ex ea commodo consequat.',
     },
     {
-      img: 'assets/img/profiles/avatar-07.jpg',
+      img: 'assets/img/profiles/profile.png',
       Name: 'Lucas Moquin',
       rating: '(5.0)',
-      para: '  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Utenim ad minim veniam, quis nostrud exercitation ullamco laborisnisi ut aliquip ex ea commodo consequat.',
+      para: '  I recently rented a truck from Pulltail for a cross-country move and I was blown away by their service. The truck was spacious and comfortable, making the long drive much more enjoyable. The staff was friendly and accommodating, even helping me to plan my route. I highly recommend Pulltail for anyone in need of a reliable truck rental.',
     },
   ];
   public carTypes = [
@@ -1364,7 +1364,7 @@ export class DataService {
     {
       carName: 'Toyota',
       img1: 'assets/img/cars/car-01.jpg',
-      img2: 'assets/img/profiles/avatar-0.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: 'Toyota Camry SE 350',
       rating: '(5.0)',
       carDetail1: 'Auto',
@@ -1382,7 +1382,7 @@ export class DataService {
     {
       carName: 'KIA',
       img1: 'assets/img/cars/car-02.jpg',
-      img2: 'assets/img/profiles/avatar-02.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: 'Kia Soul 2016',
       rating: '(5.0)',
       carDetail1: 'Auto',
@@ -1400,7 +1400,7 @@ export class DataService {
     {
       carName: 'Audi',
       img1: 'assets/img/cars/car-03.jpg',
-      img2: 'assets/img/profiles/avatar-03.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: 'Audi A3 2019 new',
       rating: '(5.0)',
       carDetail1: 'Manual',
@@ -1418,7 +1418,7 @@ export class DataService {
     {
       carName: 'Ferrai',
       img1: 'assets/img/cars/car-04.jpg',
-      img2: 'assets/img/profiles/avatar-04.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: 'Ferrari 458 MM Speciale',
       rating: '(5.0)',
       carDetail1: 'Manual',
@@ -1436,7 +1436,7 @@ export class DataService {
     {
       carName: 'Chevrolet',
       img1: 'assets/img/cars/car-05.jpg',
-      img2: 'assets/img/profiles/avatar-05.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: '2018 Chevrolet Camaro',
       rating: '(5.0)',
       carDetail1: 'Manual',
@@ -1454,7 +1454,7 @@ export class DataService {
     {
       carName: 'Acura',
       img1: 'assets/img/cars/car-06.jpg',
-      img2: 'assets/img/profiles/avatar-06.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: 'Acura Sport Version',
       rating: '(5.0)',
       carDetail1: 'Auto',
@@ -1472,7 +1472,7 @@ export class DataService {
     {
       carName: 'Chevrolet',
       img1: 'assets/img/cars/car-07.jpg',
-      img2: 'assets/img/profiles/avatar-07.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: 'Chevrolet Pick Truck 3.5L',
       rating: '(5.0)',
       carDetail1: 'Manual',
@@ -1490,7 +1490,7 @@ export class DataService {
     {
       carName: 'Toyota',
       img1: 'assets/img/cars/car-08.jpg',
-      img2: 'assets/img/profiles/avatar-08.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: 'Toyota Tacoma 4WD',
       rating: '(5.0)',
       carDetail1: 'Auto',
@@ -1508,7 +1508,7 @@ export class DataService {
     {
       carName: 'Accura',
       img1: 'assets/img/cars/car-09.jpg',
-      img2: 'assets/img/profiles/avatar-10.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: 'Acura RDX FWD',
       rating: '(5.0)',
       carDetail1: 'Auto',
@@ -1526,7 +1526,7 @@ export class DataService {
     {
       carName: 'KIA',
       img1: 'assets/img/cars/car-02.jpg',
-      img2: 'assets/img/profiles/avatar-02.jpg',
+      img2: 'assets/img/profiles/profile.png',
       carModel: 'Kia Soul 2016',
       rating: '(5.0)',
       carDetail1: 'Auto',
@@ -1630,7 +1630,7 @@ export class DataService {
       {
         carName: 'KIA',
         img1: 'assets/img/cars/car-02.jpg',
-        img2: 'assets/img/profiles/avatar-02.jpg',
+        img2: 'assets/img/profiles/profile.png',
         carModel: 'Kia Soul 2016',
         rating: '(5.0)',
         carDetail1: 'Auto',
@@ -1648,7 +1648,7 @@ export class DataService {
       {
         carName: 'Chevrolet',
         img1: 'assets/img/cars/car-05.jpg',
-        img2: 'assets/img/profiles/avatar-05.jpg',
+        img2: 'assets/img/profiles/profile.png',
         carModel: '2018 Chevrolet Camaro',
         rating: '(5.0)',
         carDetail1: 'Manual',
@@ -1666,7 +1666,7 @@ export class DataService {
       {
         carName: 'Audi',
         img1: 'assets/img/cars/car-03.jpg',
-        img2: 'assets/img/profiles/avatar-03.jpg',
+        img2: 'assets/img/profiles/profile.png',
         carModel: 'Audi A3 2019 new',
         rating: '(5.0)',
         carDetail1: 'Manual',
@@ -1684,7 +1684,7 @@ export class DataService {
       {
         carName: 'Ferrai',
         img1: 'assets/img/cars/car-04.jpg',
-        img2: 'assets/img/profiles/avatar-04.jpg',
+        img2: 'assets/img/profiles/profile.png',
         carModel: 'Ferrari 458 MM Speciale',
         rating: '(5.0)',
         carDetail1: 'Manual',
@@ -1702,7 +1702,7 @@ export class DataService {
       {
         carName: 'Chevrolet',
         img1: 'assets/img/cars/car-05.jpg',
-        img2: 'assets/img/profiles/avatar-05.jpg',
+        img2: 'assets/img/profiles/profile.png',
         carModel: '2018 Chevrolet Camaro',
         rating: '(5.0)',
         carDetail1: 'Manual',
@@ -1720,7 +1720,7 @@ export class DataService {
       {
         carName: 'Acura',
         img1: 'assets/img/cars/car-06.jpg',
-        img2: 'assets/img/profiles/avatar-06.jpg',
+        img2: 'assets/img/profiles/profile.png',
         carModel: 'Acura Sport Version',
         rating: '(5.0)',
         carDetail1: 'Auto',

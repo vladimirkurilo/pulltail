@@ -69,7 +69,7 @@
                                             <li>
                                                 <div class="post-author">
                                                     <div class="post-author-img">
-                                                        <img src="{{ URL::asset('/assets/img/profiles/avatar-03.jpg') }}"
+                                                        <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                             alt="author">
                                                     </div>
                                                     <a href="javascript:void(0)"> <span> Helan </span></a>
@@ -107,7 +107,7 @@
                                             <li>
                                                 <div class="post-author">
                                                     <div class="post-author-img">
-                                                        <img src="{{ URL::asset('/assets/img/profiles/avatar-05.jpg') }}"
+                                                        <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                             alt="author">
                                                     </div>
                                                     <a href="javascript:void(0)"> <span> Rabien Ustoc </span></a>
@@ -145,7 +145,7 @@
                                             <li>
                                                 <div class="post-author">
                                                     <div class="post-author-img">
-                                                        <img src="{{ URL::asset('/assets/img/profiles/avatar-06.jpg') }}"
+                                                        <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                             alt="author">
                                                     </div>
                                                     <a href="javascript:void(0)"> <span> Valerie L. Ellis </span></a>

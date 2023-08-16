@@ -152,11 +152,11 @@
                         <div class="count-group flex-fill">
                             <div class="customer-count d-flex align-items-center">
                                 <div class="count-img">
-                                    <img src="{{ URL::asset('/assets/img/icons/bx-car.svg') }}" alt="">
+                                    <img src="{{ URL::asset('/assets/img/icons/trailer.png') }}" alt="">
                                 </div>
                                 <div class="count-content">
                                     <h4><span class="counterUp">2547</span>+</h4>
-                                    <p>Count of Cars</p>
+                                    <p>Count of trailers</p>
                                 </div>
                             </div>
                         </div>
@@ -169,7 +169,7 @@
                                 </div>
                                 <div class="count-content">
                                     <h4><span class="counterUp">625</span>K+</h4>
-                                    <p>Car Center Solutions</p>
+                                    <p>Trailers Center Solutions</p>
                                 </div>
                             </div>
                         </div>

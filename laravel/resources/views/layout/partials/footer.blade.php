@@ -164,7 +164,7 @@
                                 <p>©
                                     <script>
                                         document.write(new Date().getFullYear())
-                                    </script> Dreams Rent. All Rights Reserved.
+                                    </script> Pulltail. All Rights Reserved.
                                 </p>
                             </div>
                         </div>
@@ -211,7 +211,7 @@
                     <p>©
                         <script>
                             document.write(new Date().getFullYear())
-                        </script> Dreams Rent. All Rights Reserved.
+                        </script> Pulltail. All Rights Reserved.
                     </p>
                 </div>
             </div>

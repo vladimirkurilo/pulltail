@@ -1,0 +1,7 @@
+<div *ngFor="let trailer of trailers">
+    <h3>{{ trailer.name }}</h3>
+    <img [src]="trailer.photoUrl" alt="{{ trailer.name }}">
+    <p>Location: {{ trailer.address }}</p>
+    <p>Price: {{ trailer.price }}</p>
+</div>
+  

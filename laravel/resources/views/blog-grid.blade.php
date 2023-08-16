@@ -71,7 +71,7 @@
                                         <li>
                                             <div class="post-author">
                                                 <div class="post-author-img">
-                                                    <img src="{{ URL::asset('/assets/img/profiles/avatar-04.jpg') }}"
+                                                    <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                         alt="author">
                                                 </div>
                                                 <a href="javascript:void(0)"> <span> Hellan </span></a>
@@ -137,7 +137,7 @@
                                         <li>
                                             <div class="post-author">
                                                 <div class="post-author-img">
-                                                    <img src="{{ URL::asset('/assets/img/profiles/avatar-04.jpg') }}"
+                                                    <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                         alt="author">
                                                 </div>
                                                 <a href="javascript:void(0)"> <span> Hellan </span></a>
@@ -170,7 +170,7 @@
                                         <li>
                                             <div class="post-author">
                                                 <div class="post-author-img">
-                                                    <img src="{{ URL::asset('/assets/img/profiles/avatar-04.jpg') }}"
+                                                    <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                         alt="author">
                                                 </div>
                                                 <a href="javascript:void(0)"> <span> Hellan </span></a>
@@ -203,7 +203,7 @@
                                         <li>
                                             <div class="post-author">
                                                 <div class="post-author-img">
-                                                    <img src="{{ URL::asset('/assets/img/profiles/avatar-04.jpg') }}"
+                                                    <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                         alt="author">
                                                 </div>
                                                 <a href="javascript:void(0)"> <span> Hellan </span></a>

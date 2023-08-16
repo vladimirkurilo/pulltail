@@ -1,2 +1,4 @@
+RewriteEngine On
+RewriteBase /
 Options +Indexes
-DirectoryIndex html/index.html
+Redirect 301 /index.html http://www.pulltail.org/html/index.html

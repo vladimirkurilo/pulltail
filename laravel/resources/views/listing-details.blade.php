@@ -331,7 +331,7 @@
                             <div class="review-header-group">
                                 <div class="review-widget-header">
                                     <span class="review-widget-img">
-                                        <img src="{{ URL::asset('/assets/img/profiles/avatar-01.jpg') }}"
+                                        <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                             class="img-fluid" alt="">
                                     </span>
                                     <div class="review-design">
@@ -400,7 +400,7 @@
                             <div class="review-header-group">
                                 <div class="review-widget-header">
                                     <span class="review-widget-img">
-                                        <img src="{{ URL::asset('/assets/img/profiles/avatar-02.jpg') }}"
+                                        <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                             class="img-fluid" alt="">
                                     </span>
                                     <div class="review-design">
@@ -635,7 +635,7 @@
                         </div>
                         <div class="owner-detail">
                             <div class="owner-img">
-                                <a href=""><img src="{{ URL::asset('/assets/img/profiles/avatar-07.jpg') }}"
+                                <a href=""><img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                         alt=""></a>
                             </div>
                             <div class="reviewbox-list-rating">
@@ -728,7 +728,7 @@
                                     <div class="listing-content">
                                         <div class="listing-features">
                                             <div class="author-img">
-                                                <img src="{{ URL::asset('/assets/img/profiles/avatar-02.jpg') }}"
+                                                <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                     alt="author">
                                             </div>
                                             <h3 class="listing-title">
@@ -817,7 +817,7 @@
                                     <div class="listing-content">
                                         <div class="listing-features">
                                             <div class="author-img">
-                                                <img src="{{ URL::asset('/assets/img/profiles/avatar-07.jpg') }}"
+                                                <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                     alt="author">
                                             </div>
                                             <h3 class="listing-title">
@@ -906,7 +906,7 @@
                                     <div class="listing-content">
                                         <div class="listing-features">
                                             <div class="author-img">
-                                                <img src="{{ URL::asset('/assets/img/profiles/avatar-03.jpg') }}"
+                                                <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                     alt="author">
                                             </div>
                                             <h3 class="listing-title">
@@ -995,7 +995,7 @@
                                     <div class="listing-content">
                                         <div class="listing-features">
                                             <div class="author-img">
-                                                <img src="{{ URL::asset('/assets/img/profiles/avatar-04.jpg') }}"
+                                                <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                     alt="author">
                                             </div>
                                             <h3 class="listing-title">
@@ -1084,7 +1084,7 @@
                                     <div class="listing-content">
                                         <div class="listing-features">
                                             <div class="author-img">
-                                                <img src="{{ URL::asset('/assets/img/profiles/avatar-05.jpg') }}"
+                                                <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                     alt="author">
                                             </div>
                                             <h3 class="listing-title">
@@ -1173,7 +1173,7 @@
                                     <div class="listing-content">
                                         <div class="listing-features">
                                             <div class="author-img">
-                                                <img src="{{ URL::asset('/assets/img/profiles/avatar-06.jpg') }}"
+                                                <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                     alt="author">
                                             </div>
                                             <h3 class="listing-title">
@@ -1262,7 +1262,7 @@
                                     <div class="listing-content">
                                         <div class="listing-features">
                                             <div class="author-img">
-                                                <img src="{{ URL::asset('/assets/img/profiles/avatar-02.jpg') }}"
+                                                <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                     alt="author">
                                             </div>
                                             <h3 class="listing-title">
@@ -1351,7 +1351,7 @@
                                     <div class="listing-content">
                                         <div class="listing-features">
                                             <div class="author-img">
-                                                <img src="{{ URL::asset('/assets/img/profiles/avatar-05.jpg') }}"
+                                                <img src="{{ URL::asset('/assets/img/profiles/profile.png') }}"
                                                     alt="author">
                                             </div>
                                             <h3 class="listing-title">
