@@ -225,13 +225,13 @@
 									<div class="form-group-wrapp">
 										<div class="form-group date-widget">												
 											<div class="group-img">
-											<input type="text" class="form-control datetimepicker" id="pickup-date" placeholder="04/11/2023">
+											<input type="text" name="pickup_date" class="form-control datetimepicker" placeholder="04/11/2023">
 											<span><i class="feather-calendar"></i></span>
 											</div>
 										</div>
 										<div class="form-group time-widge">											
 											<div class="group-img">
-											<input type="text" class="form-control timepicker" placeholder="11:00 AM">
+											<input type="text" name="pickup_time" class="form-control timepicker" placeholder="11:00 AM">
 											<span><i class="feather-clock"></i></span>
 											</div>
 										</div>
@@ -244,13 +244,13 @@
 									<div class="form-group-wrapp">
 										<div class="form-group date-widge">												
 											<div class="group-img">
-											<input type="text" class="form-control datetimepicker" id="return-date" placeholder="04/11/2023">
+											<input type="text" name="return_date" class="form-control datetimepicker" placeholder="04/11/2023">
 											<span><i class="feather-calendar"></i></span>
 											</div>
 										</div>
 										<div class="form-group time-widge">											
 											<div class="group-img">
-											<input type="text" class="form-control timepicker" placeholder="11:00 AM">
+											<input type="text" name="return_time" class="form-control timepicker" placeholder="11:00 AM">
 											<span><i class="feather-clock"></i></span>
 											</div>
 										</div>
@@ -287,7 +287,7 @@
 						  returnDate.setFullYear(returnDate.getFullYear() + 1);
 						}
 					  
-						document.getElementById("return-date").placeholder = returnDate.toISOString();
+						document.getElementById("return-date").value = returnDate.toISOString();
 					  }
 </script>
 					
@@ -5557,7 +5557,7 @@
 	<script src="assets/js/owl.carousel.min.js"></script>
 	
 	<!-- Custom JS -->
-	<script src="assets/js/script.js"></script>
+	<script src="assets/js/script.js?v3"></script>
 	
 </body>
 </html>

@@ -344,6 +344,102 @@ var calendarElements=[], timeElements=[];
         });
 	}
 	
+	if($('#listing').length)
+		{
+		var block=$('#listing .row').eq(0);
+		$(block).empty(); $(block).parent().find('.blog-pagination').remove();
+		$.ajax({
+				url: 'assets/api/trailers.php',
+				success: function(response){
+					if(response.data.trailers)
+						{
+						for(var i=0; i<response.data.trailers.length; i++)
+							{
+							var element=response.data.trailers[i];
+							var photo = false;
+							if(element.photos) 
+								photo=element.photos[0];
+							if(!photo) continue;
+							$(block).append('<div class="col-xl-6 col-lg-6 col-md-6 col-12">\
+								<div class="listing-item">									\
+									<div class="listing-img">\
+										<a href="listing-details.html">\
+											<img src="'+(photo ? photo.size400.url : '')+'" class="img-fluid" alt="">\
+										</a>\
+										<div class="fav-item">\
+											<span class="featured-text">'+(element.make ? element.make + ' ' : '')+(element.year ? element.year : '')+'</span>\
+											<a href="javascript:void(0)" class="fav-icon">\
+												<i class="feather-heart"></i>\
+											</a>										\
+										</div>	\
+									</div>										\
+									<div class="listing-content">\
+										<div class="listing-features">\
+											<a href="javascript:void(0)" class="author-img">\
+												<img src="assets/img/profiles/profile.png" alt="author">\
+											</a>\
+											<h3 class="listing-title">\
+												<a href="listing-details.html">'+(element.make ? element.make + ' ' : '')+(element.year ? element.year : '')+'</a>\
+											</h3>																	  \
+											<div class="list-rating">							\
+												<i class="fas fa-star filled"></i>\
+												<i class="fas fa-star filled"></i>\
+												<i class="fas fa-star filled"></i>\
+												<i class="fas fa-star filled"></i>\
+												<i class="fas fa-star filled"></i>\
+												<span>(5.0)</span>\
+											</div>\
+										</div> \
+										<div class="listing-details-group">\
+											<ul>\
+												<li>\
+													<span><img src="assets/img/icons/car-parts-05.svg" alt="Auto"></span>\
+													<p>Auto</p>\
+												</li>\
+												<li>\
+													<span><img src="assets/img/icons/car-parts-02.svg" alt="10 KM"></span>\
+													<p>10 KM</p>\
+												</li>\
+												<li>\
+													<span><img src="assets/img/icons/car-parts-03.svg" alt="Petrol"></span>\
+													<p>Petrol</p>\
+												</li>\
+											</ul>	\
+											<ul>\
+												<li>\
+													<span><img src="assets/img/icons/car-parts-04.svg" alt="Power"></span>\
+													<p>Power</p>\
+												</li>\
+												<li>\
+													<span><img src="assets/img/icons/car-parts-05.svg" alt="'+(element.year ? element.year : '')+'"></span>\
+													<p>'+(element.year ? element.year : '')+'</p>	\
+												</li>\
+												<li>\
+													<span><img src="assets/img/icons/car-parts-06.svg" alt="Persons"></span>\
+													<p>5 Persons</p>\
+												</li>\
+											</ul>\
+										</div>																 \
+										<div class="listing-location-details">\
+											<div class="listing-price">\
+												<span><i class="feather-map-pin"></i></span>'+(element.address && element.address.city ? element.address.city + ' ' : '')+'\
+											</div>\
+											<div class="listing-price">\
+												<h6>$'+(element.rentPrice && element.rentPrice.perDay ? element.rentPrice.perDay + ' ' : '')+' <span>/ Day</span></h6>\
+											</div>\
+										</div>\
+										<div class="listing-button">\
+											<a href="listing-details.html" class="btn btn-order"><span><i class="feather-calendar me-2"></i></span>Rent Now</a>\
+										</div>	\
+									</div>\
+								</div>		 \
+							</div>');
+							}
+						}
+				}
+			}, 'json');
+		}
+	
 	$(calendarElements[0]).data("DateTimePicker").date(new Date());
 	$(timeElements[0]).data("DateTimePicker").date(new Date());
 	setReturnDateTime();
@@ -376,6 +472,7 @@ var calendarElements=[], timeElements=[];
 		$(calendarElements[1]).data("DateTimePicker").date(returnDate);
 		$(timeElements[1]).data("DateTimePicker").date(returnTime);
 		}
+		
 	
 	
 })(jQuery);
